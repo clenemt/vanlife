@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const PostCSSPresetEnv = require('postcss-preset-env');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -32,8 +33,19 @@ module.exports = {
       // while keeping the same file name in the output
       hash: true,
       inject: false
+    }),
+    // This is how to do it for webpack plugins
+    // https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack/28989476#28989476
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ],
+  resolve: {
+    alias: {
+      jquery: 'jquery/src/jquery'
+    }
+  },
   module: {
     rules: [
       {
@@ -60,6 +72,18 @@ module.exports = {
             }
           },
           'sass-loader'
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]-[contenthash].[ext]',
+              outputPath: 'images'
+            }
+          }
         ]
       }
     ]
