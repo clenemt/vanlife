@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
-    "jquery": "^3.5.1",
-    "sanitize.css": "^11.0.0"
+    "jquery": "^3.5.1"
   }
 }

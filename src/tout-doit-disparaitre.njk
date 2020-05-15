@@ -1,22 +1,57 @@
 ---
 layout: default
 title: Tout doit disparaître
+data: items
 ---
 
 <div class="container">
+  <ul class="nav-items d-flex justify-content-around mb-5">
+    {% for item in items %}
+    <li class="nav-item">
+      <a href="#{{ item.name | slug }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 
-<p class="imglist">
-  <a href="https://source.unsplash.com/IvfoDk30JnI/1500x1000" data-fancybox="gallery" data-caption="&lt;b&gt;Single photo&lt;/b&gt;&lt;br /&gt;Caption can contain &lt;em&gt;any&lt;/em&gt; HTML elements">
-    <img src="https://source.unsplash.com/IvfoDk30JnI/240x160" />
-  </a>
+  <div class="items">
+    {% for item in items %}{% set index = loop.index %}
+    <div class="item__images row no-gutters mb-3 mb-lg-4 mb-xl-5">
+      <div class="col">
+        <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
+          <img src="{{ item.image }}" class="w-100 pr-2" />
+        </a>
+      </div>
 
-  <a href="https://source.unsplash.com/0JYgd2QuMfw/1500x1000" data-fancybox="gallery" data-caption="This image has a simple caption">
-    <img src="https://source.unsplash.com/0JYgd2QuMfw/240x160" />
-  </a>
+      <ul id="{{ item.name | slug }}" class="row col no-gutters">
+        {% for image in item.images %}
+        <li class="item__image col-6 pr-2 pb-2">
+          <a href="{{ image }}" data-fancybox="gallery-{{ index }}">
+            <img src="{{ image }}" class="w-100" />
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
 
-  <a href="https://source.unsplash.com/xAgvgQpYsf4/1500x1000" data-fancybox="gallery">
-    <img src="https://source.unsplash.com/xAgvgQpYsf4/240x160" />
-  </a>
-</p>
+    <div class="item__content col col-lg-6">
+      <div class="ml-2 ml-md-3 ml-xl-5">
+        <h1 class="item__header">
+          {{ item.name }}
+          <span class="item__price ml-4">$ {{ item.price }}</span>
+        </h1>
 
+        <p class="item__description">{{ item.description | safe }}</p>
+
+        {% if item.data %}
+        <ul class="item__data">
+          {% for name, description in item.data %}
+          <li>{{ name }}: {{ description }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
 </div>

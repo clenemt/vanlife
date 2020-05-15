@@ -1,2 +1,46 @@
-$red: red;
-h1 { color: $red; }
+$orange: #ffb700;
+$body-color: #212529;
+$fs-base: 1rem;
+$fs-sm: $fs-base * 0.875;
+$fs-lg: $fs-base * 1.25;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item__header {
+  font-weight: bold;
+  font-size: calc(1.3rem + 0.6vw);
+
+  @media (min-width: 1200px) {
+    font-size: 1.75rem;
+  }
+}
+
+.item__content {
+  font-size: $fs-sm;
+  margin-bottom: 3.5rem;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 6rem;
+  }
+}
+
+.item__price {
+  display: inline-block;
+  padding: .25rem .5rem;
+  font-size: 1.25rem;
+  color: $orange;
+  border: solid 4px $orange;
+}
+
+.nav-items {
+  font-size: $fs-sm;
+  margin-top: 6rem;
+}
+
+.nav-item a {
+  color: $body-color;
+}
