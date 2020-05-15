@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "eleventy-webpack",
+  "name": "vanlife",
   "scripts": {
     "format": "prettier --write src/scripts/* src/styles/*",
     "start": "run-p -l start:*",
