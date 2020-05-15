@@ -3,7 +3,7 @@
     "name": "test",
     "description": "lorem <strong>foo</strong>",
     "price": 400,
-    "image": "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
+    "image": "/assets/default.png",
     "images": [
       "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
       "https://generative-placeholders.glitch.me/image?width=400&height=400&img=0",

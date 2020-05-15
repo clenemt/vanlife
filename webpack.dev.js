@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const PostCSSPresetEnv = require('postcss-preset-env');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -33,6 +34,14 @@ module.exports = {
       // while keeping the same file name in the output
       hash: true,
       inject: false
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/images'),
+          to: path.resolve(__dirname, './dist/assets')
+        }
+      ]
     }),
     // This is how to do it for webpack plugins
     // https://stackoverflow.com/questions/28969861/managing-jquery-plugin-dependency-in-webpack/28989476#28989476

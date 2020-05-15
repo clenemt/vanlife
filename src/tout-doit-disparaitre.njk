@@ -5,7 +5,7 @@ data: items
 ---
 
 <div class="container">
-  <ul class="nav-items d-flex justify-content-around mb-5">
+  <ul class="nav-items d-flex justify-content-around">
     {% for item in items %}
     <li class="nav-item">
       <a href="#{{ item.name | slug }}">{{ item.name }}</a>
