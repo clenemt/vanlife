@@ -15,14 +15,14 @@ data: items
 
   <div class="items">
     {% for item in items %}{% set index = loop.index %}
-    <div class="item__images row no-gutters mb-3 mb-lg-4 mb-xl-5">
-      <div class="col">
+    <div id="{{ item.name | slug }}" class="item__images row no-gutters mb-3 mb-lg-4 mb-xl-5">
+      <div class="col-12 col-md-6 mb-md-2">
         <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
-          <img src="{{ item.image }}" class="w-100 pr-2" />
+          <img src="{{ item.image }}" class="w-100 pb-2 pb-md-0 pr-md-2" />
         </a>
       </div>
 
-      <ul id="{{ item.name | slug }}" class="row col no-gutters">
+      <ul class="row col-12 col-md-6 no-gutters">
         {% for image in item.images %}
         <li class="item__image col-6 pr-2 pb-2">
           <a href="{{ image }}" data-fancybox="gallery-{{ index }}">
