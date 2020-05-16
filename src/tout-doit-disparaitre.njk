@@ -5,9 +5,9 @@ data: items
 ---
 
 <div class="container">
-  <ul class="nav-items d-flex justify-content-around">
+  <ul class="nav-items d-flex justify-content-around flex-wrap">
     {% for item in items %}
-    <li class="nav-item">
+    <li class="nav-item mx-3 mb-2">
       <a href="#{{ item.name | slug }}">{{ item.name }}</a>
     </li>
     {% endfor %}
