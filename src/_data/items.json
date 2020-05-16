@@ -53,5 +53,57 @@
       "/assets/meuble retro 2.jpg",
       "/assets/meuble retro 3.jpg"
     ]
+  },
+  {
+    "name": "Lampe de salon",
+    "description": "Lampe sur pied en papier",
+    "price": 300,
+    "image": "/assets/lampe 1.jpg",
+    "images": [
+      "/assets/lampe 2.jpg",
+      "/assets/lampe 3.jpg"
+    ]
+  },
+  {
+    "name": "Meuble de rangement",
+    "description": "Meuble de rangement kalax",
+    "price": 300,
+    "image": "/assets/etageres ikea 1.jpg",
+    "images": [
+      "/assets/etageres ikea 2.jpg",
+      "/assets/etageres ikea 3.jpg",
+      "/assets/etageres ikea 4.jpg",
+      "/assets/etageres ikea 5.jpg"
+    ]
+  },
+  {
+    "name": "Meuble rétro",
+    "description": "Meuble rétro",
+    "price": 300,
+    "image": "/assets/meuble retro 1.jpg",
+    "images": [
+      "/assets/meuble retro 2.jpg",
+      "/assets/meuble retro 3.jpg"
+    ]
+  },
+  {
+    "name": "Meuble rétro",
+    "description": "Meuble rétro",
+    "price": 300,
+    "image": "/assets/meuble retro 1.jpg",
+    "images": [
+      "/assets/meuble retro 2.jpg",
+      "/assets/meuble retro 3.jpg"
+    ]
+  },
+  {
+    "name": "Meuble rétro",
+    "description": "Meuble rétro",
+    "price": 300,
+    "image": "/assets/meuble retro 1.jpg",
+    "images": [
+      "/assets/meuble retro 2.jpg",
+      "/assets/meuble retro 3.jpg"
+    ]
   }
 ]
