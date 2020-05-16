@@ -17,7 +17,7 @@
   {
     "name": "Table basse",
     "description": "Une table basse",
-    "price": 400,
+    "price": 150,
     "image": "/assets/table basse 1.jpg",
     "images": [
       "/assets/table basse 2.jpg",
@@ -33,7 +33,7 @@
   {
     "name": "Fauteuil",
     "description": "Un fauteuil",
-    "price": 400,
+    "price": 100,
     "image": "/assets/fauteuil 1.jpg",
     "images": [
       "/assets/fauteuil 2.jpg",
@@ -45,9 +45,9 @@
     }
   },
   {
-    "name": "Meuble rétro",
-    "description": "Meuble rétro",
-    "price": 300,
+    "name": "Console rétro",
+    "description": "Console rétro",
+    "price": 50,
     "image": "/assets/meuble retro 1.jpg",
     "images": [
       "/assets/meuble retro 2.jpg",
@@ -57,7 +57,7 @@
   {
     "name": "Lampe de salon",
     "description": "Lampe sur pied en papier",
-    "price": 300,
+    "price": 30,
     "image": "/assets/lampe 1.jpg",
     "images": [
       "/assets/lampe 2.jpg",
@@ -67,7 +67,7 @@
   {
     "name": "Meuble de rangement",
     "description": "Meuble de rangement kalax",
-    "price": 300,
+    "price": 100,
     "image": "/assets/etageres ikea 1.jpg",
     "images": [
       "/assets/etageres ikea 2.jpg",
@@ -77,9 +77,29 @@
     ]
   },
   {
-    "name": "Meuble rétro",
-    "description": "Meuble rétro",
-    "price": 300,
+    "name": "Canapé lit",
+    "description": "Canapé lit ikea",
+    "price": 100,
+    "image": "/assets/canap lit 1.jpg",
+    "images": [
+      "/assets/canap lit 2.jpg",
+      "/assets/canap lit 3.jpg"
+    ]
+  },
+  {
+    "name": "Lit",
+    "description": "Lit King size, Malm ikea",
+    "price": 500,
+    "image": "/assets/lit 1.jpg",
+    "images": [
+      "/assets/lit 2.jpg",
+      "/assets/lit 3.jpg"
+    ]
+  },
+  {
+    "name": "Meuble tiroir",
+    "description": "Meuble tiroir noir et blanc ikea",
+    "price": 20,
     "image": "/assets/meuble retro 1.jpg",
     "images": [
       "/assets/meuble retro 2.jpg",
@@ -87,23 +107,12 @@
     ]
   },
   {
-    "name": "Meuble rétro",
-    "description": "Meuble rétro",
-    "price": 300,
-    "image": "/assets/meuble retro 1.jpg",
+    "name": "Commode",
+    "description": "Commode à trois tiroirs ikéa",
+    "price": 50,
+    "image": "/assets/commode 1.jpg",
     "images": [
-      "/assets/meuble retro 2.jpg",
-      "/assets/meuble retro 3.jpg"
-    ]
-  },
-  {
-    "name": "Meuble rétro",
-    "description": "Meuble rétro",
-    "price": 300,
-    "image": "/assets/meuble retro 1.jpg",
-    "images": [
-      "/assets/meuble retro 2.jpg",
-      "/assets/meuble retro 3.jpg"
+      "/assets/commode 2.jpg"
     ]
   }
 ]
