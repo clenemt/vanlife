@@ -1,18 +1,17 @@
 [
   {
-    "name": "test",
-    "description": "lorem <strong>foo</strong>",
-    "price": 400,
-    "image": "/assets/default.png",
+    "name": "Canapé",
+    "description": "Un canapé",
+    "price": 250,
+    "image": "/assets/c1.jpg",
     "images": [
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=0",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=2",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=3"
+      "/assets/c2.jpg",
+      "/assets/c3.jpg",
+      "/assets/c4.jpg",
+      "/assets/c5.jpg"
     ],
     "data": {
-      "foo": "foo",
-      "bar": "bar"
+      "dimensions": "200 x 300"
     }
   },
   {
