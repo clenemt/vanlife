@@ -15,7 +15,7 @@
     }
   },
   {
-    "name": "Tqble basse",
+    "name": "Table basse",
     "description": "Une table basse",
     "price": 400,
     "image": "/assets/table basse 1.jpg",
@@ -34,7 +34,7 @@
     "name": "Fauteuil",
     "description": "Un fauteuil",
     "price": 400,
-    "image": "/assets/fauteuil &.jpg",
+    "image": "/assets/fauteuil 1.jpg",
     "images": [
       "/assets/fauteuil 2.jpg",
       "/assets/fauteuil 3.jpg"
