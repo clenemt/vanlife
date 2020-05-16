@@ -15,15 +15,15 @@
     }
   },
   {
-    "name": "test 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tristique purus id pharetra. Donec auctor mollis sapien et elementum. Nunc facilisis eleifend nulla in ornare. Suspendisse potenti. Integer dapibus interdum orci sit amet posuere. Aenean finibus urna id libero congue ultricies. Nulla varius arcu et odio mollis, vestibulum sagittis eros sollicitudin. Morbi eleifend laoreet ante ultrices semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id dolor dignissim, tempus mauris nec, congue tortor. Quisque sit amet libero consectetur, efficitur magna sed, iaculis odio.",
+    "name": "Tqble basse",
+    "description": "Une table basse",
     "price": 400,
-    "image": "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
+    "image": "/assets/table basse 1.jpg",
     "images": [
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=4",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=5",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=6",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=7"
+      "/assets/table basse 2.jpg",
+      "/assets/table basse 3.jpg",
+      "/assets/table basse 4.jpg",
+      "/assets/table basse 5.jpg"
     ],
     "data": {
       "foo": "foo",
@@ -31,14 +31,13 @@
     }
   },
   {
-    "name": "test 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur tristique purus id pharetra. Donec auctor mollis sapien et elementum. Nunc facilisis eleifend nulla in ornare. Suspendisse potenti. Integer dapibus interdum orci sit amet posuere. Aenean finibus urna id libero congue ultricies. Nulla varius arcu et odio mollis, vestibulum sagittis eros sollicitudin. Morbi eleifend laoreet ante ultrices semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id dolor dignissim, tempus mauris nec, congue tortor. Quisque sit amet libero consectetur, efficitur magna sed, iaculis odio.",
+    "name": "Fauteuil",
+    "description": "Un fauteuil",
     "price": 400,
-    "image": "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
+    "image": "/assets/fauteuil &.jpg",
     "images": [
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=8",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=9",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=10"
+      "/assets/fauteuil 2.jpg",
+      "/assets/fauteuil 3.jpg"
     ],
     "data": {
       "foo": "foo",
@@ -46,17 +45,13 @@
     }
   },
   {
-    "name": "test 4",
-    "description": "lorem 4",
+    "name": "Meuble rétro",
+    "description": "Meuble rétro",
     "price": 300,
-    "image": "https://generative-placeholders.glitch.me/image?width=400&height=400&img=1",
+    "image": "/assets/meuble retro 1.jpg",
     "images": [
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=11",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=12",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=13",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=14",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=15",
-      "https://generative-placeholders.glitch.me/image?width=400&height=400&img=16"
+      "/assets/meuble retro 2.jpg",
+      "/assets/meuble retro 3.jpg"
     ]
   }
 ]
