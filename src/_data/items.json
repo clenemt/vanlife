@@ -58,10 +58,10 @@
     "name": "Lampe de salon",
     "description": "Lampe sur pied en papier",
     "price": 30,
-    "image": "/assets/lampe 1.jpg",
+    "image": "/assets/lamp 1.jpg",
     "images": [
-      "/assets/lampe 2.jpg",
-      "/assets/lampe 3.jpg"
+      "/assets/lamp 2.jpg",
+      "/assets/lamp 3.jpg"
     ]
   },
   {
