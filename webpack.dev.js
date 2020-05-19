@@ -39,7 +39,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'src/images'),
-          to: path.resolve(__dirname, './dist/assets')
+          to: path.resolve(__dirname, 'dist/assets')
         }
       ]
     }),
@@ -81,18 +81,6 @@ module.exports = {
             }
           },
           'sass-loader'
-        ]
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name]-[contenthash].[ext]',
-              outputPath: 'images'
-            }
-          }
         ]
       }
     ]
