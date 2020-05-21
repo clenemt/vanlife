@@ -5,10 +5,12 @@ data: items
 ---
 
 <div class="container">
-  <ul class="nav-items d-flex justify-content-md-center flex-wrap">
+  <ul class="nav-items d-flex justify-content-center flex-wrap">
     {% for item in items | sort(false, true, 'name') %}
     <li class="nav-item mr-4 mr-xl-5 mb-2">
-      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{ item.name }}</a>
+      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{
+        item.name
+      }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -26,7 +28,10 @@ data: items
       </div>
 
       <ul class="row col-12 col-md-6 no-gutters">
-        {% for image in item.images %}
+        {% for image in item.images %} {% if loop.length === 2 and loop.index
+        === 2 %}
+        <div class="w-100 d-none d-md-block"></div>
+        {% endif %}
         <li class="item__image col-6 pr-2 pb-2">
           <a href="{{ image }}" data-fancybox="gallery-{{ index }}">
             <img src="{{ image }}" class="w-100" />
