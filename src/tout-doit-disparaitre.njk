@@ -6,9 +6,9 @@ data: items
 
 <div class="container">
   <ul class="nav-items d-flex justify-content-around flex-wrap">
-    {% for item in items %}
+    {% for item in items | sort(false, true, 'name') %}
     <li class="nav-item mx-3 mb-2">
-      <a href="#{{ item.name | slug }}">{{ item.name }}</a>
+      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{ item.name }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -19,7 +19,7 @@ data: items
       id="{{ item.name | slug }}"
       class="item__images row no-gutters mb-3 mb-lg-4 mb-xl-5"
     >
-      <div class="col-12 col-md-6 pb-2 pr-md-2">
+      <div class="col-12 col-md-6 pb-2 pr-2">
         <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
           <img src="{{ item.image }}" class="w-100" />
         </a>

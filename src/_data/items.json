@@ -88,6 +88,28 @@
     ]
   },
   {
+    "name": "KitchenAid artisan",
+    "description": "KitchenAid de couleur pistache vendu avec le shredder et 3 fouets.",
+    "price": 400,
+    "image": "/assets/kitchenaid 1.jpg",
+    "images": ["/assets/kitchenaid 2.jpg", "/assets/kitchenaid 3.jpg"],
+    "data": {
+      "Profondeur": "36 cm (14\")",
+      "Largeur": "23.5 cm (9\")",
+      "Hauteur": "35.5 cm (14\")"
+    },
+    "links": [
+      {
+        "url": "https://www.amazon.ca/dp/B0000635XA/",
+        "name": "Lien direct KitchenAid Amazon"
+      },
+      {
+        "url": "https://www.amazon.ca/KitchenAid-KSMVSA-Slicer-Shredder-Attachment/dp/B01MUTSU13/",
+        "name": "Lien direct shredder Amazon"
+      }
+    ]
+  },
+  {
     "name": "Bibliothèque",
     "description": "Meuble de rangement Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
     "price": 90,
@@ -180,6 +202,69 @@
     "links": [
       {
         "url": "https://www.ikea.com/be/fr/p/askvoll-commode-3-tiroirs-effet-chene-blanchi-blanc-20270802/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
+    "name": "Lampes murales",
+    "description": "2x lampes murales noires Ikea HEKTAR avec ampoules. Parfait pour votre tête de lit.",
+    "price": 30,
+    "image": "/assets/2 lampes 1.jpg",
+    "images": ["/assets/2 lampes 2.jpg", "/assets/2 lampes 3.jpg"],
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/hektar-spot-mural-tablette-gris-fonce-50216540/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
+    "name": "Bouilloire",
+    "description": "Bouilloire électrique Salton en verre inoxydable. Lumière bleue chaleureuse pendant la chauffe !",
+    "price": 30,
+    "image": "/assets/bouilloire.jpg",
+    "links": [
+      {
+        "url": "https://www.amazon.ca/dp/B07NC9X88X?tag=duc12-20&linkCode=osi&th=1&psc=1",
+        "name": "Lien direct Amazon"
+      }
+    ]
+  },
+  {
+    "name": "Casseroles",
+    "description": "Les casseroles classiques d'Ikea KAVALKAD.",
+    "price": 10,
+    "image": "/assets/casserole.jpg",
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/kavalkad-casserole-3-pieces-noir-20139322/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
+    "name": "Grille pain",
+    "description": "Un grille pain bien simple.",
+    "price": 15,
+    "image": "/assets/grille pain 1.jpg",
+    "images": ["/assets/grille pain 2.jpg"]
+  },
+  {
+    "name": "Cuiseur",
+    "description": "Sert à la foix de rice cooker et pour cuire les légumes.",
+    "price": 40,
+    "image": "/assets/cuiseur.jpg"
+  },
+  {
+    "name": "Lampe de bureau",
+    "description": "Lampe Ikea FORSÅ bleue avec ampoule.",
+    "price": 15,
+    "image": "/assets/lampe bleue 1.jpg",
+    "images": ["/assets/lampe bleue 2.jpg"],
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/forsa-lampe-de-travail-rouge-fonce-80457298/",
         "name": "Lien direct Ikea"
       }
     ]
