@@ -1,8 +1,8 @@
 [
   {
-    "name": "Canapé",
-    "description": "Un canapé",
-    "price": 250,
+    "name": "Canapé 3 places",
+    "description": "Canapé Structube en bon état, assise très confortable pour regarder un film ou lire un livre.",
+    "price": 300,
     "image": "/assets/c1.jpg",
     "images": [
       "/assets/c2.jpg",
@@ -11,12 +11,20 @@
       "/assets/c5.jpg"
     ],
     "data": {
-      "dimensions": "200 x 300"
-    }
+      "Profondeur": "89 cm (35\")",
+      "Largeur": "208 cm (82\")",
+      "Hauteur": "83 cm (32.5\")"
+    },
+    "links": [
+      {
+        "url": "https://www.structube.com/fr/carine-canape-3-places-11-31-62?pid=13009",
+        "name": "Lien direct Structube"
+      }
+    ]
   },
   {
     "name": "Table basse",
-    "description": "Une table basse",
+    "description": "Table basse en bois et métal achetée sur Kijiji. Parfait si vous détestez les tables qui marquent ou tâchent facilement.",
     "price": 150,
     "image": "/assets/table basse 1.jpg",
     "images": [
@@ -26,93 +34,154 @@
       "/assets/table basse 5.jpg"
     ],
     "data": {
-      "foo": "foo",
-      "bar": "bar"
+      "Profondeur": "81 cm (32\")",
+      "Largeur": "140 cm (55\")",
+      "Hauteur": "47 cm (18.5\")"
     }
   },
   {
-    "name": "Fauteuil",
-    "description": "Un fauteuil",
+    "name": "Fauteuil beige",
+    "description": "Fauteuil Ikea KOARP, Gunnared beige et noir.",
     "price": 100,
     "image": "/assets/fauteuil 1.jpg",
-    "images": [
-      "/assets/fauteuil 2.jpg",
-      "/assets/fauteuil 3.jpg"
-    ],
+    "images": ["/assets/fauteuil 2.jpg", "/assets/fauteuil 3.jpg"],
     "data": {
-      "foo": "foo",
-      "bar": "bar"
-    }
+      "Profondeur": "78 cm (30\")",
+      "Largeur": "83 cm (32\")",
+      "Hauteur": "75 cm (29\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/koarp-fauteuil-gunnared-beige-noir-s59221716/",
+        "name": "Lien direct Ikea"
+      }
+    ]
   },
   {
-    "name": "Console rétro",
-    "description": "Console rétro",
-    "price": 50,
+    "name": "Console",
+    "description": "Console rétro en bois vernis et porte peinte en noir.",
+    "price": 150,
     "image": "/assets/meuble retro 1.jpg",
-    "images": [
-      "/assets/meuble retro 2.jpg",
-      "/assets/meuble retro 3.jpg"
-    ]
+    "images": ["/assets/meuble retro 2.jpg", "/assets/meuble retro 3.jpg"],
+    "data": {
+      "Profondeur": "40 cm (16\")",
+      "Largeur": "123 cm (48.5\")",
+      "Hauteur": "67 cm (26\")"
+    }
   },
   {
     "name": "Lampe de salon",
-    "description": "Lampe sur pied en papier",
-    "price": 30,
+    "description": "Lampe en papier Ikea SOLLEFTEÅ blanche.",
+    "price": 20,
     "image": "/assets/lamp 1.jpg",
-    "images": [
-      "/assets/lamp 2.jpg",
-      "/assets/lamp 3.jpg"
+    "images": ["/assets/lamp 2.jpg", "/assets/lamp 3.jpg"],
+    "data": {
+      "Profondeur": "33 cm (13\")",
+      "Largeur": "33 cm (13\")",
+      "Hauteur": "128 cm (50\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/solleftea-lampadaire-blanc-ovale-blanc-50300119/",
+        "name": "Lien direct Ikea"
+      }
     ]
   },
   {
-    "name": "Étagères kalax",
-    "description": "Meuble de rangement kalax",
-    "price": 100,
+    "name": "Bibliothèque",
+    "description": "Meuble de rangement Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
+    "price": 90,
     "image": "/assets/etageres ikea 1.jpg",
     "images": [
       "/assets/etageres ikea 2.jpg",
       "/assets/etageres ikea 3.jpg",
       "/assets/etageres ikea 4.jpg",
       "/assets/etageres ikea 5.jpg"
+    ],
+    "data": {
+      "Profondeur": "39 cm (15\")",
+      "Largeur": "77 cm (30\")",
+      "Hauteur": "147 cm (57\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/kallax-etagere-blanc-80275887/",
+        "name": "Lien direct Ikea"
+      }
     ]
   },
   {
-    "name": "Canapé lit",
-    "description": "Canapé lit ikea",
-    "price": 100,
+    "name": "Canapé convertible",
+    "description": "Canapé-lit Ikea NYHAMN beige. ",
+    "price": 275,
     "image": "/assets/canap lit 1.jpg",
-    "images": [
-      "/assets/canap lit 2.jpg",
-      "/assets/canap lit 3.jpg"
+    "images": ["/assets/canap lit 2.jpg", "/assets/canap lit 3.jpg"],
+    "data": {
+      "Profondeur": "97 cm (38\")",
+      "Largeur": "200 cm (78\")",
+      "Hauteur": "90 cm (35\")",
+      "Largeur matelas": "140 (55\")",
+      "Longueur matelas": "200 (78\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/nyhamn-canape-lit-avec-matelas-en-mousse-hyllie-beige-s99306394/",
+        "name": "Lien direct Ikea"
+      }
     ]
   },
   {
     "name": "Lit",
-    "description": "Lit King size, Malm ikea",
-    "price": 500,
+    "description": "Structure de lit trés grand (King Size) Ikea MALM blanc. Inclus structure, lattes Lönset et matelas.",
+    "price": 600,
     "image": "/assets/lit 1.jpg",
-    "images": [
-      "/assets/lit 2.jpg",
-      "/assets/lit 3.jpg"
+    "images": ["/assets/lit 2.jpg", "/assets/lit 3.jpg"],
+    "data": {
+      "Profondeur": "211 cm (83\")",
+      "Largeur": "209 cm (82\")",
+      "Hauteur": "38 cm (15\")",
+      "Largeur matelas": "193 (76\")",
+      "Longueur matelas": "202 (79\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/malm-structure-de-lit-haut-blanc-loenset-s69019163/",
+        "name": "Lien direct structure MALM Ikea"
+      },
+      {
+        "url": "https://www.ikea.com/ca/fr/p/matrand-matelas-mousse-viscoelastique-ferme-blanc-90272398/",
+        "name": "Lien direct matelas MATRAND Ikea"
+      }
     ]
   },
   {
     "name": "Meuble tiroir",
-    "description": "Meuble tiroir noir et blanc ikea",
-    "price": 20,
-    "image": "/assets/meuble retro 1.jpg",
-    "images": [
-      "/assets/meuble retro 2.jpg",
-      "/assets/meuble retro 3.jpg"
-    ]
+    "description": "Meuble de rangement à tiroir coulissant noir et blanc. Parfait pour mettre les chaussures ou la couette d'hiver.",
+    "price": 40,
+    "image": "/assets/meuble noir 1.jpg",
+    "images": ["/assets/meuble noir 2.jpg", "/assets/meuble noir 3.jpg"],
+    "data": {
+      "Profondeur": "51 cm (20\")",
+      "Largeur": "90 cm (35.5\")",
+      "Hauteur": "49.5 cm (19.5\")"
+    }
   },
   {
     "name": "Commode",
-    "description": "Commode à trois tiroirs ikéa",
+    "description": "Commode à trois tiroirs Ikea ASKVOLL effet chêne blanchi. Les bobettes rentrent tip top.",
     "price": 50,
     "image": "/assets/commode 1.jpg",
-    "images": [
-      "/assets/commode 2.jpg"
+    "images": ["/assets/commode 2.jpg"],
+    "data": {
+      "Profondeur": "41 cm (16\")",
+      "Largeur": "70 cm (27.5\")",
+      "Hauteur": "68 cm (27\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/be/fr/p/askvoll-commode-3-tiroirs-effet-chene-blanchi-blanc-20270802/",
+        "name": "Lien direct Ikea"
+      }
     ]
   }
 ]
