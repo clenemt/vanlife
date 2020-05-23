@@ -7,7 +7,7 @@ data: items
 <div class="container">
   <ul class="nav-items d-flex justify-content-center flex-wrap">
     {% for item in items | sort(false, true, 'name') %}
-    <li class="nav-item mr-4 mr-xl-5 mb-2">
+    <li class="nav-item mx-3 mx-xl-4 mb-2">
       <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{
         item.name
       }}</a>

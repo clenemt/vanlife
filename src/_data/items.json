@@ -245,7 +245,7 @@
   },
   {
     "name": "Grille pain",
-    "description": "Un grille pain bien simple.",
+    "description": "Un grille pain ben simple.",
     "price": 15,
     "image": "/assets/grille pain 1.jpg",
     "images": ["/assets/grille pain 2.jpg"]
