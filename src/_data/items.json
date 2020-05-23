@@ -268,5 +268,41 @@
         "name": "Lien direct Ikea"
       }
     ]
+  },
+  {
+    "name": "Rangement bureau",
+    "description": "Rangement en liège Ikea PLEJA noir.",
+    "price": 10,
+    "image": "/assets/rangement liege.jpg",
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/pleja-range-tout-bureau-noir-00348048/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
+    "name": "Rideaux occultants",
+    "description": "Rideaux opaques Ikea MAJGULL bleu foncé avec tringle et anneaux. Si vous dormez que dans le noir total, alors c'est tiguidou pour vous.",
+    "price": 25,
+    "image": "/assets/rideau 1.jpg",
+    "images": ["/assets/rideau 2.jpg", "/assets/rideau 3.jpg"],
+    "data": {
+      "Largeur": "250 cm (98\")",
+      "Hauteur": "145 cm (57\")"
+    },
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/majgull-rideaux-opaques-2-panneaux-bleu-fonce-70341034/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
+    "name": "Rideaux beige",
+    "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux",
+    "price": 15,
+    "image": "/assets/rideau b 1.jpg",
+    "images": ["/assets/rideau b 2.jpg"]
   }
 ]

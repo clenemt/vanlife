@@ -62,8 +62,8 @@ data: items
     <div class="item__content col col-lg-6">
       <div class="ml-2 ml-md-3 ml-xl-5">
         <h1 class="item__header">
-          {{ item.name }}
-          <span class="item__price ml-4">$ {{ item.price }}</span>
+          <span class="mr-3 mr-md-4">{{ item.name }}</span
+          ><span class="item__price">${{ item.price }}</span>
         </h1>
 
         <p class="item__description">{{ item.description | safe }}</p>
