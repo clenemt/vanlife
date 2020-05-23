@@ -49,3 +49,13 @@ ul {
 .nav-item a {
   color: $body-color;
 }
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
