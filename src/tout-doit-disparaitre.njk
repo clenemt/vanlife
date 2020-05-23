@@ -19,7 +19,7 @@ data: items
     {% for item in items %}{% set index = loop.index %}
     <div
       id="{{ item.name | slug }}"
-      class="item__images row no-gutters mb-3 mb-lg-4 mb-xl-5"
+      class="item__images row no-gutters ml-1 ml-md-0"
     >
       <div class="col-12 col-md-6 pb-2 pr-2">
         <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
