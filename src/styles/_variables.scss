@@ -1,4 +1,15 @@
-:root {
-  --font-sans-serif: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
+$purple: #5747ff;
+$white: #fff;
+
+$sans-serif: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$body-color: #212529;
+$fs-base: 1rem;
+$fs-sm: $fs-base * 0.875;
+$fs-lg: $fs-base * 1.25;
+
+$primary: $purple;
+
+$link-color: $primary;
+$link-color-hover: #1a0ac8;
