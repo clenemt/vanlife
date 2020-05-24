@@ -252,7 +252,7 @@
   },
   {
     "name": "Cuiseur",
-    "description": "Sert à la foix de rice cooker et pour cuire les légumes.",
+    "description": "Sert à la fois de rice cooker et pour cuire les légumes.",
     "price": 40,
     "image": "/static/images/cuiseur.jpg"
   },

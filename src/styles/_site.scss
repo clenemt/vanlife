@@ -134,42 +134,77 @@ ul {
     background-repeat: no-repeat;
     background-image:
       url('./images/foldable-map.svg'),
-      url('./images/forest-landscape.svg'),
-      url('./images/polaroids.svg'),
       url('./images/van.svg');
     background-position:
       top 5% left -5%,
-      top 15% right 0%,
-      bottom 0% left 25%,
-      bottom 25% right 5%;
+      bottom 5% right 10%;
 
     @media (min-width: 992px) {
       background-size: 10%;
     }
 
-    @media (min-height: 813px) {
+    @media (min-height: 813px) and (min-width: 576px) {
+      background-image:
+        url('./images/foldable-map.svg'),
+        url('./images/forest-landscape.svg'),
+        url('./images/polaroids.svg'),
+        url('./images/van-with-door.svg');
       background-position:
         top 10% left 10%,
         top 12.5% right 10%,
         bottom 20% left 25%,
-        bottom 25% right 10%;
+        bottom 5% right 15%;
     }
   }
 
   &.bg-icons--oui:before {
     background-image:
-      url('./images/mountain-view.svg'),
-      url('./images/compass.svg'),
-      url('./images/van-with-door.svg'),
-      url('./images/oil-lamp.svg');
+      url('./images/fire-camp.svg'),
+      url('./images/skews.svg');
+
+    @media (min-height: 813px) and (min-width: 576px) {
+      background-image:
+        url('./images/oil-lamp.svg'),
+        url('./images/cards.svg'),
+        url('./images/thermos.svg'),
+        url('./images/ice-creams.svg'),
+        url('./images/skews.svg'),
+        url('./images/polaroids.svg'),
+        url('./images/fire-camp.svg');
+      background-position:
+        top 10% left 10%,
+        top 0% right 35%,
+        top 30% right 5%,
+        bottom 25% right 10%,
+        bottom 5% right 35%,
+        bottom 5% left 25%,
+        bottom 40% left 5%;
+    }
   }
 
   &.bg-icons--non:before {
     background-image:
-      url('./images/van-sign.svg'),
-      url('./images/road-block.svg'),
-      url('./images/danger-sign.svg'),
-      url('./images/tools.svg');
+      url('./images/fuel.svg'),
+      url('./images/van-sign.svg');
+
+    @media (min-height: 813px) and (min-width: 576px) {
+      background-image:
+        url('./images/van-sign.svg'),
+        url('./images/stop-sign.svg'),
+        url('./images/fuel.svg'),
+        url('./images/tools.svg'),
+        url('./images/fire-camp.svg'),
+        url('./images/road-block.svg'),
+        url('./images/danger-sign.svg');
+      background-position:
+        top 10% left 10%,
+        top 0% right 35%,
+        top 30% right 5%,
+        bottom 25% right 10%,
+        bottom 5% right 35%,
+        bottom 5% left 25%,
+        bottom 40% left 5%;
+    }
   }
 }
 
