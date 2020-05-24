@@ -22,9 +22,6 @@ module.exports = {
     publicPath: '/assets/'
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: '[name].css'
-    }),
     // Will create a `webpack.njk` with the css/jss files
     // that then gets picked up by eleventy
     new HtmlWebpackPlugin({
@@ -38,8 +35,8 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, 'src/images'),
-          to: path.resolve(__dirname, 'dist/assets')
+          from: path.resolve(__dirname, 'src/static'),
+          to: path.resolve(__dirname, 'dist/static')
         }
       ]
     }),
@@ -48,6 +45,9 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
+    }),
+    new MiniCssExtractPlugin({
+      filename: '[name].css'
     })
   ],
   resolve: {
@@ -82,6 +82,10 @@ module.exports = {
           },
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: 'file-loader'
       }
     ]
   }

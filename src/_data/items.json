@@ -3,12 +3,12 @@
     "name": "Canapé 3 places",
     "description": "Canapé Structube en bon état, assise très confortable pour regarder un film ou lire un livre.",
     "price": 300,
-    "image": "/assets/c1.jpg",
+    "image": "/static/images/c1.jpg",
     "images": [
-      "/assets/c2.jpg",
-      "/assets/c3.jpg",
-      "/assets/c4.jpg",
-      "/assets/c5.jpg"
+      "/static/images/c2.jpg",
+      "/static/images/c3.jpg",
+      "/static/images/c4.jpg",
+      "/static/images/c5.jpg"
     ],
     "data": {
       "Profondeur": "89 cm (35\")",
@@ -26,12 +26,12 @@
     "name": "Table basse",
     "description": "Table basse en bois et métal achetée sur Kijiji. Parfait si vous détestez les tables qui marquent ou tâchent facilement.",
     "price": 150,
-    "image": "/assets/table basse 1.jpg",
+    "image": "/static/images/table basse 1.jpg",
     "images": [
-      "/assets/table basse 2.jpg",
-      "/assets/table basse 3.jpg",
-      "/assets/table basse 4.jpg",
-      "/assets/table basse 5.jpg"
+      "/static/images/table basse 2.jpg",
+      "/static/images/table basse 3.jpg",
+      "/static/images/table basse 4.jpg",
+      "/static/images/table basse 5.jpg"
     ],
     "data": {
       "Profondeur": "81 cm (32\")",
@@ -43,8 +43,8 @@
     "name": "Fauteuil beige",
     "description": "Fauteuil Ikea KOARP, Gunnared beige et noir.",
     "price": 100,
-    "image": "/assets/fauteuil 1.jpg",
-    "images": ["/assets/fauteuil 2.jpg", "/assets/fauteuil 3.jpg"],
+    "image": "/static/images/fauteuil 1.jpg",
+    "images": ["/static/images/fauteuil 2.jpg", "/static/images/fauteuil 3.jpg"],
     "data": {
       "Profondeur": "78 cm (30\")",
       "Largeur": "83 cm (32\")",
@@ -61,8 +61,8 @@
     "name": "Console",
     "description": "Console rétro en bois vernis et porte peinte en noir.",
     "price": 150,
-    "image": "/assets/meuble retro 1.jpg",
-    "images": ["/assets/meuble retro 2.jpg", "/assets/meuble retro 3.jpg"],
+    "image": "/static/images/meuble retro 1.jpg",
+    "images": ["/static/images/meuble retro 2.jpg", "/static/images/meuble retro 3.jpg"],
     "data": {
       "Profondeur": "40 cm (16\")",
       "Largeur": "123 cm (48.5\")",
@@ -73,8 +73,8 @@
     "name": "Lampe de salon",
     "description": "Lampe en papier Ikea SOLLEFTEÅ blanche.",
     "price": 20,
-    "image": "/assets/lamp 1.jpg",
-    "images": ["/assets/lamp 2.jpg", "/assets/lamp 3.jpg"],
+    "image": "/static/images/lamp 1.jpg",
+    "images": ["/static/images/lamp 2.jpg", "/static/images/lamp 3.jpg"],
     "data": {
       "Profondeur": "33 cm (13\")",
       "Largeur": "33 cm (13\")",
@@ -91,8 +91,8 @@
     "name": "KitchenAid artisan",
     "description": "KitchenAid de couleur pistache vendu avec le shredder et 3 fouets.",
     "price": 400,
-    "image": "/assets/kitchenaid 1.jpg",
-    "images": ["/assets/kitchenaid 2.jpg", "/assets/kitchenaid 3.jpg"],
+    "image": "/static/images/kitchenaid 1.jpg",
+    "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg"],
     "data": {
       "Profondeur": "36 cm (14\")",
       "Largeur": "23.5 cm (9\")",
@@ -113,12 +113,12 @@
     "name": "Bibliothèque",
     "description": "Meuble de rangement Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
     "price": 90,
-    "image": "/assets/etageres ikea 1.jpg",
+    "image": "/static/images/etageres ikea 1.jpg",
     "images": [
-      "/assets/etageres ikea 2.jpg",
-      "/assets/etageres ikea 3.jpg",
-      "/assets/etageres ikea 4.jpg",
-      "/assets/etageres ikea 5.jpg"
+      "/static/images/etageres ikea 2.jpg",
+      "/static/images/etageres ikea 3.jpg",
+      "/static/images/etageres ikea 4.jpg",
+      "/static/images/etageres ikea 5.jpg"
     ],
     "data": {
       "Profondeur": "39 cm (15\")",
@@ -136,8 +136,8 @@
     "name": "Canapé convertible",
     "description": "Canapé-lit Ikea NYHAMN beige. ",
     "price": 275,
-    "image": "/assets/canap lit 1.jpg",
-    "images": ["/assets/canap lit 2.jpg", "/assets/canap lit 3.jpg"],
+    "image": "/static/images/canap lit 1.jpg",
+    "images": ["/static/images/canap lit 2.jpg", "/static/images/canap lit 3.jpg"],
     "data": {
       "Profondeur": "97 cm (38\")",
       "Largeur": "200 cm (78\")",
@@ -156,8 +156,8 @@
     "name": "Lit",
     "description": "Structure de lit trés grand (King Size) Ikea MALM blanc. Inclus structure, lattes Lönset et matelas.",
     "price": 600,
-    "image": "/assets/lit 1.jpg",
-    "images": ["/assets/lit 2.jpg", "/assets/lit 3.jpg"],
+    "image": "/static/images/lit 1.jpg",
+    "images": ["/static/images/lit 2.jpg", "/static/images/lit 3.jpg"],
     "data": {
       "Profondeur": "211 cm (83\")",
       "Largeur": "209 cm (82\")",
@@ -180,8 +180,8 @@
     "name": "Meuble tiroir",
     "description": "Meuble de rangement à tiroir coulissant noir et blanc. Parfait pour mettre les chaussures ou la couette d'hiver.",
     "price": 40,
-    "image": "/assets/meuble noir 1.jpg",
-    "images": ["/assets/meuble noir 2.jpg", "/assets/meuble noir 3.jpg"],
+    "image": "/static/images/meuble noir 1.jpg",
+    "images": ["/static/images/meuble noir 2.jpg", "/static/images/meuble noir 3.jpg"],
     "data": {
       "Profondeur": "51 cm (20\")",
       "Largeur": "90 cm (35.5\")",
@@ -192,8 +192,8 @@
     "name": "Commode",
     "description": "Commode à trois tiroirs Ikea ASKVOLL effet chêne blanchi. Les bobettes rentrent tip top.",
     "price": 50,
-    "image": "/assets/commode 1.jpg",
-    "images": ["/assets/commode 2.jpg"],
+    "image": "/static/images/commode 1.jpg",
+    "images": ["/static/images/commode 2.jpg"],
     "data": {
       "Profondeur": "41 cm (16\")",
       "Largeur": "70 cm (27.5\")",
@@ -210,8 +210,8 @@
     "name": "Lampes murales",
     "description": "2x lampes murales noires Ikea HEKTAR avec ampoules. Parfait pour votre tête de lit.",
     "price": 30,
-    "image": "/assets/2 lampes 1.jpg",
-    "images": ["/assets/2 lampes 2.jpg", "/assets/2 lampes 3.jpg"],
+    "image": "/static/images/2 lampes 1.jpg",
+    "images": ["/static/images/2 lampes 2.jpg", "/static/images/2 lampes 3.jpg"],
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/hektar-spot-mural-tablette-gris-fonce-50216540/",
@@ -223,7 +223,7 @@
     "name": "Bouilloire",
     "description": "Bouilloire électrique Salton en verre inoxydable. Lumière bleue chaleureuse pendant la chauffe !",
     "price": 30,
-    "image": "/assets/bouilloire.jpg",
+    "image": "/static/images/bouilloire.jpg",
     "links": [
       {
         "url": "https://www.amazon.ca/dp/B07NC9X88X?tag=duc12-20&linkCode=osi&th=1&psc=1",
@@ -235,7 +235,7 @@
     "name": "Casseroles",
     "description": "Les casseroles classiques d'Ikea KAVALKAD.",
     "price": 10,
-    "image": "/assets/casserole.jpg",
+    "image": "/static/images/casserole.jpg",
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/kavalkad-casserole-3-pieces-noir-20139322/",
@@ -247,21 +247,21 @@
     "name": "Grille pain",
     "description": "Un grille pain ben simple.",
     "price": 15,
-    "image": "/assets/grille pain 1.jpg",
-    "images": ["/assets/grille pain 2.jpg"]
+    "image": "/static/images/grille pain 1.jpg",
+    "images": ["/static/images/grille pain 2.jpg"]
   },
   {
     "name": "Cuiseur",
     "description": "Sert à la foix de rice cooker et pour cuire les légumes.",
     "price": 40,
-    "image": "/assets/cuiseur.jpg"
+    "image": "/static/images/cuiseur.jpg"
   },
   {
     "name": "Lampe de bureau",
     "description": "Lampe Ikea FORSÅ bleue avec ampoule.",
     "price": 15,
-    "image": "/assets/lampe bleue 1.jpg",
-    "images": ["/assets/lampe bleue 2.jpg"],
+    "image": "/static/images/lampe bleue 1.jpg",
+    "images": ["/static/images/lampe bleue 2.jpg"],
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/forsa-lampe-de-travail-rouge-fonce-80457298/",
@@ -273,7 +273,7 @@
     "name": "Rangement bureau",
     "description": "Rangement en liège Ikea PLEJA noir.",
     "price": 10,
-    "image": "/assets/rangement liege.jpg",
+    "image": "/static/images/rangement liege.jpg",
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/pleja-range-tout-bureau-noir-00348048/",
@@ -285,8 +285,8 @@
     "name": "Rideaux occultants",
     "description": "Rideaux opaques Ikea MAJGULL bleu foncé avec tringle et anneaux. Si vous dormez que dans le noir total, alors c'est tiguidou pour vous.",
     "price": 25,
-    "image": "/assets/rideau 1.jpg",
-    "images": ["/assets/rideau 2.jpg", "/assets/rideau 3.jpg"],
+    "image": "/static/images/rideau 1.jpg",
+    "images": ["/static/images/rideau 2.jpg", "/static/images/rideau 3.jpg"],
     "data": {
       "Largeur": "250 cm (98\")",
       "Hauteur": "145 cm (57\")"
@@ -302,7 +302,7 @@
     "name": "Rideaux beige",
     "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux",
     "price": 15,
-    "image": "/assets/rideau b 1.jpg",
-    "images": ["/assets/rideau b 2.jpg"]
+    "image": "/static/images/rideau b 1.jpg",
+    "images": ["/static/images/rideau b 2.jpg"]
   }
 ]
