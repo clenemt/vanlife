@@ -1,7 +1,7 @@
 [
   {
     "name": "Canapé 3 places",
-    "description": "Canapé Structube en bon état, assise très confortable pour regarder un film ou lire un livre.",
+    "description": "Canapé Structube en bon état, assise très confortable 💺 pour regarder un film ou lire un livre.",
     "price": 300,
     "image": "/static/images/c1.jpg",
     "images": [
@@ -71,7 +71,7 @@
   },
   {
     "name": "Lampe de salon",
-    "description": "Lampe en papier Ikea SOLLEFTEÅ blanche.",
+    "description": "Lampe en papier 🏮 Ikea SOLLEFTEÅ blanche.",
     "price": 20,
     "image": "/static/images/lamp 1.jpg",
     "images": ["/static/images/lamp 2.jpg", "/static/images/lamp 3.jpg"],
@@ -89,7 +89,7 @@
   },
   {
     "name": "KitchenAid artisan",
-    "description": "KitchenAid de couleur pistache vendu avec le shredder et 3 fouets.",
+    "description": "KitchenAid artisan de couleur pistache vendu avec le shredder et 3 fouets. Pour la boulangèr(e) 🥐 qui sommeil en toi.",
     "price": 400,
     "image": "/static/images/kitchenaid 1.jpg",
     "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg"],
@@ -111,7 +111,7 @@
   },
   {
     "name": "Bibliothèque",
-    "description": "Meuble de rangement Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
+    "description": "Meuble de rangement 📚 Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
     "price": 90,
     "image": "/static/images/etageres ikea 1.jpg",
     "images": [
@@ -133,8 +133,25 @@
     ]
   },
   {
+    "name": "Table",
+    "description": "Table de salle à manger V de V. Accueil jusqu'à 8 personnes ou 4 en période de confinement. Vendue avec ou sans les chaises 🪑 (+ $50).",
+    "price": 375,
+    "image": "/static/images/table-1.jpg",
+    "images": [
+      "/static/images/table-2.jpg",
+      "/static/images/table-3.jpg",
+      "/static/images/table-4.jpg",
+      "/static/images/table-5.jpg"
+    ],
+    "data": {
+      "Profondeur": "90 cm (35.5\")",
+      "Largeur": "180 cm (71\")",
+      "Hauteur": "77 cm (30\")"
+    }
+  },
+  {
     "name": "Canapé convertible",
-    "description": "Canapé-lit Ikea NYHAMN beige. ",
+    "description": "Canapé-lit Ikea NYHAMN beige. Vendu avec matelas et housse. Utilisé 5 fois, promis 🤞.",
     "price": 275,
     "image": "/static/images/canap lit 1.jpg",
     "images": ["/static/images/canap lit 2.jpg", "/static/images/canap lit 3.jpg"],
@@ -154,7 +171,7 @@
   },
   {
     "name": "Lit",
-    "description": "Structure de lit trés grand (King Size) Ikea MALM blanc. Inclus structure, lattes Lönset et matelas.",
+    "description": "Structure de lit 🛌 trés grand (King Size) Ikea MALM blanc. Inclus structure, lattes Lönset et matelas.",
     "price": 600,
     "image": "/static/images/lit 1.jpg",
     "images": ["/static/images/lit 2.jpg", "/static/images/lit 3.jpg"],
@@ -297,6 +314,13 @@
         "name": "Lien direct Ikea"
       }
     ]
+  },
+  {
+    "name": "Plantes",
+    "description": "Nos plus belles locatrices cherchent de nouveaux acquéreurs. Attention elles ne feront pas le ménage chez vous et vous ferons la tête si vous ne les 🚿 arrosez pas régulièrement.",
+    "price": "🌱",
+    "image": "/static/images/plantes 1.jpg",
+    "images": ["/static/images/plantes 2.jpg", "/static/images/plantes 3.jpg"]
   },
   {
     "name": "Rideaux beige",
