@@ -69,8 +69,10 @@ data: items
           <li>{{ name }}: {{ description | safe }}</li>
           {% endfor %}
         </ul>
-        {% endif %} {% if item.links %}
-        <ul class="item__links">
+        {% endif %}
+
+        {% if item.links %}
+        <ul class="item__links mb-3">
           {% for link in item.links %}
           <li>
             <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
@@ -79,6 +81,26 @@ data: items
         </ul>
         {% endif %}
 
+        <span class="text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </span>
+
+        {% set cta = [
+          "Je veux ça",
+          "Ca c'est pour moi",
+          "Je le veux",
+          "Je prends",
+          "J'aime ça",
+          "Je magasine",
+          "À moi",
+          "Tellement beau",
+          "J'àchète",
+          "Je signe où",
+          "Parfait pour mon caniche",
+          "Au pire je le donne à mon voisin"
+        ] | random %}
+
+        <a class="a" href="mailto:floriane.jacqueneau+fcvan@gmail.com?subject={{ item.name }} - {{ cta }}&body=Bonjour Clément et Floriane,%0A%0AJ'aimerai acheter l'objet suivant: {{ item.name }} au prix de ${{ item.price }}.%0APar contre j'aimerai savoir si...%0A%0AJ'ai bien vu que vous habitiez sur le plateau et non pas au Lac Saint-Jean et je suis prêt(e) à me déplacer si nécessaire.%0A%0AMerci.">{{ cta }} !</a>
       </div>
     </div>
     {% endfor %}

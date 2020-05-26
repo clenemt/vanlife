@@ -2,6 +2,10 @@
 // Additional resets
 //
 
+a:hover {
+  font-weight: bold;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,16 +27,17 @@ marquee {
   background: $primary;
 }
 
+svg {
+  position: relative;
+  top: -2px;
+}
+
 //
 // Navigation
 //
 
 .nav-items {
   font-size: $fs-sm;
-}
-
-.nav-item a {
-  color: $body-color;
 }
 
 //
@@ -273,6 +278,35 @@ marquee {
 
 .btn--primary:active:focus {
   box-shadow: 0 0 0 0.2rem rgba($primary, 0.5);
+}
+
+.a {
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+  }
+
+  &:hover {
+    &:after {
+      transform-origin: bottom left;
+      transform: scaleX(1);
+    }
+  }
 }
 
 //

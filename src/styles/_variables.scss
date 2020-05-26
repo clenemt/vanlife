@@ -1,5 +1,6 @@
 $purple: #5747ff;
 $white: #fff;
+$black: #000;
 
 $sans-serif: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 $monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -11,5 +12,5 @@ $fs-lg: $fs-base * 1.25;
 
 $primary: $purple;
 
-$link-color: $primary;
-$link-color-hover: #1a0ac8;
+$link-color: $body-color;
+$link-color-hover: $black;
