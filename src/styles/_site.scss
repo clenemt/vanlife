@@ -2,7 +2,7 @@
 // Additional resets
 //
 
-a:hover {
+a:not(.btn):hover {
   font-weight: bold;
 }
 
