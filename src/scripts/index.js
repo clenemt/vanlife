@@ -22,5 +22,5 @@ if (
     const expires = new Date();
     expires.setTime(expires.getTime() + 10 * 365 * 24 * 60 * 60);
     document.cookie = `${COOKIE}=true; expires=${expires.toUTCString()}; path=/`;
-})
+  });
 }
