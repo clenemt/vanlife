@@ -340,5 +340,12 @@
     "price": 15,
     "image": "/static/images/rideau b 3.jpg",
     "images": ["/static/images/rideau b 2.jpg", "/static/images/rideau b 1.jpg"]
+  },
+    {
+    "name": "Tabouret",
+    "description": "Marche pied/tabouret Bekväm blanc, Parfait pour vos plantes 🌱 ou vos foufounes",
+    "price": 15,
+    "image": "/static/images/tabouret 1.jpg",
+    "images": ["/static/images/tabouret 2.jpg", "/static/images/tabouret 3.jpg"]
   }
 ]
