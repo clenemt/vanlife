@@ -161,7 +161,8 @@ marquee {
     z-index: -1;
     background-size: 100px;
     background-repeat: no-repeat;
-    background-image: url('./images/foldable-map.svg'), url('./images/van.svg');
+    background-image: url('../assets/images/foldable-map.svg'),
+      url('../assets/images/van.svg');
     background-position: top 5% left -5%, bottom 5% right 10%;
 
     @media (min-width: 992px) {
@@ -169,23 +170,26 @@ marquee {
     }
 
     @media (min-height: 566px) and (min-width: 576px) {
-      background-image: url('./images/foldable-map.svg'),
-        url('./images/forest-landscape.svg'), url('./images/polaroids.svg'),
-        url('./images/van-with-door.svg');
+      background-image: url('../assets/images/foldable-map.svg'),
+        url('../assets/images/forest-landscape.svg'),
+        url('../assets/images/polaroids.svg'),
+        url('../assets/images/van-with-door.svg');
       background-position: top 10% left 10%, top 12.5% right 10%,
         bottom 20% left 25%, bottom 5% right 15%;
     }
   }
 
   &.bg-icons--oui:before {
-    background-image: url('./images/fire-camp.svg'), url('./images/skews.svg');
+    background-image: url('../assets/images/fire-camp.svg'),
+      url('../assets/images/skews.svg');
     background-position: top 5% left 5%, bottom 5% right 10%;
 
     @media (min-height: 566px) and (min-width: 576px) {
-      background-image: url('./images/oil-lamp.svg'), url('./images/cards.svg'),
-        url('./images/thermos.svg'), url('./images/ice-creams.svg'),
-        url('./images/skews.svg'), url('./images/polaroids.svg'),
-        url('./images/fire-camp.svg');
+      background-image: url('../assets/images/oil-lamp.svg'),
+        url('../assets/images/cards.svg'), url('../assets/images/thermos.svg'),
+        url('../assets/images/ice-creams.svg'),
+        url('../assets/images/skews.svg'), url('../assets/images/polaroids.svg'),
+        url('../assets/images/fire-camp.svg');
       background-position: top 10% left 10%, top 0% right 35%, top 30% right 5%,
         bottom 25% right 10%, bottom 5% right 35%, bottom 5% left 25%,
         bottom 40% left 5%;
@@ -193,14 +197,16 @@ marquee {
   }
 
   &.bg-icons--non:before {
-    background-image: url('./images/fuel.svg'), url('./images/van-sign.svg');
+    background-image: url('../assets/images/fuel.svg'),
+      url('../assets/images/van-sign.svg');
     background-position: top 5% left 5%, bottom 5% right 10%;
 
     @media (min-height: 566px) and (min-width: 576px) {
-      background-image: url('./images/van-sign.svg'),
-        url('./images/stop-sign.svg'), url('./images/fuel.svg'),
-        url('./images/tools.svg'), url('./images/fire-camp.svg'),
-        url('./images/road-block.svg'), url('./images/danger-sign.svg');
+      background-image: url('../assets/images/van-sign.svg'),
+        url('../assets/images/stop-sign.svg'), url('../assets/images/fuel.svg'),
+        url('../assets/images/tools.svg'), url('../assets/images/fire-camp.svg'),
+        url('../assets/images/road-block.svg'),
+        url('../assets/images/danger-sign.svg');
       background-position: top 10% left 10%, top 0% right 35%, top 30% right 5%,
         bottom 25% right 10%, bottom 5% right 35%, bottom 5% left 25%,
         bottom 40% left 5%;

@@ -84,14 +84,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.svg$/,
-        use: 'svg-inline-loader',
-        exclude: path.resolve(__dirname, 'src/styles')
-      },
-      {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        use: 'file-loader',
-        include: path.resolve(__dirname, 'src/styles')
+        use: 'file-loader'
       }
     ]
   }
