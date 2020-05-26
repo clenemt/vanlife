@@ -6,14 +6,12 @@ data: items
 
 <div class="container">
 
-  <h2 class="text-center font-weight-bold mb-4">Tout doit disparaitre&nbsp;📦</h2>
+  <h2 class="text-center font-weight-bold mb-4">Tout doit disparaître&nbsp;📦</h2>
 
   <ul class="nav-items d-flex justify-content-center flex-wrap mb-4">
     {% for item in items | sort(false, true, 'name') %}
     <li class="nav-item mx-3 mx-xl-4 mb-2">
-      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{
-        item.name
-      }}</a>
+      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{ item.name }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -75,12 +73,7 @@ data: items
         <ul class="item__links">
           {% for link in item.links %}
           <li>
-            <a
-              href="{{ link.url }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              >{{ link.name }}</a
-            >
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
           </li>
           {% endfor %}
         </ul>
@@ -88,12 +81,9 @@ data: items
 
       </div>
     </div>
-
-    {% if loop.index === ((loop.length / 2) | round(0, "floor")) %}
-    {% include "marquee.njk" %}
-    {% endif %}
-
     {% endfor %}
+
     {% include "marquee.njk" %}
+
   </div>
 </div>

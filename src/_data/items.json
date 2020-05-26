@@ -225,8 +225,8 @@
   },
   {
     "name": "Bureau et sa chaise",
-    "description": "Planche et tréteaux pour un bureau parfait. Vendu avec ou sans sa chaise (+$30). Effet chaine blanchi et tréteaux gris foncé",
-    "price": 30,
+    "description": "Planche et tréteaux pour un bureau parfait. Vendu avec ou sans sa chaise (+$100). Effet chêne blanchi et tréteaux gris foncés.",
+    "price": 60,
     "image": "/static/images/desk 1.jpg",
     "images": ["/static/images/desk chair.jpg"],
     "data": {
@@ -313,7 +313,7 @@
   },
   {
     "name": "Casseroles",
-    "description": "Les casseroles classiques d'Ikea KAVALKAD.",
+    "description": "Les casseroles classiques d'Ikea KAVALKAD. Si vous présentez bien, on rajoutera même une poêle ou deux.",
     "price": 10,
     "image": "/static/images/casserole.jpg",
     "links": [
@@ -370,7 +370,7 @@
   },
   {
     "name": "Ventilateur",
-    "description": "Élément essentiel pour passer un bel été à Montréal. Ventilateur sur pied Facto, 3 vitesses et grand angle d'oscillation.",
+    "description": "Élément essentiel pour passer un bel été 🔥 à Montréal. Ventilateur sur pied Facto, 3 vitesses et grand angle d'oscillation.",
     "price": 10,
     "image": "/static/images/ventilo 1.jpg",
     "images": ["/static/images/ventilo 2.jpg"]
@@ -401,16 +401,22 @@
   },
   {
     "name": "Rideaux beige",
-    "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux",
+    "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux.",
     "price": 15,
     "image": "/static/images/rideau b 3.jpg",
     "images": ["/static/images/rideau b 2.jpg", "/static/images/rideau b 1.jpg"]
   },
     {
     "name": "Tabouret",
-    "description": "Marche pied/tabouret Ikea BEKVÄM blanc, Parfait pour vos plantes 🌱 ou vos foufounes.",
+    "description": "Marche pied/tabouret Ikea BEKVÄM blanc. Parfait pour vos plantes 🌱 ou vos foufounes.",
     "price": 15,
     "image": "/static/images/tabouret 1.jpg",
-    "images": ["/static/images/tabouret 2.jpg", "/static/images/tabouret 3.jpg"]
+    "images": ["/static/images/tabouret 2.jpg", "/static/images/tabouret 3.jpg"],
+    "links": [
+      {
+        "url": "https://www.ikea.com/gb/en/p/bekvaem-step-stool-white-40178888/",
+        "name": "Lien direct Ikea"
+      }
+    ]
   }
 ]
