@@ -10,3 +10,7 @@ $("a[href^='mailto:']").click(function(e) {
   e.preventDefault();
   window.open($(this).attr('href'));
 });
+
+// Simple tracking
+const $form = $("[data-netlify]");
+if ($form.length) $.post($form.attr("action"), $form.serialize());
