@@ -237,6 +237,18 @@
     ]
   },
   {
+    "name": "Chaises pliantes",
+    "description": "2 chaises pliantes TERJE noires.",
+    "price": 20,
+    "image": "/static/images/casserole.jpg",
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/terje-chaise-pliante-noir-00222440/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
+  {
     "name": "Bouilloire",
     "description": "Bouilloire électrique Salton en verre inoxydable. Lumière bleue chaleureuse pendant la chauffe !",
     "price": 20,
@@ -259,6 +271,18 @@
       "Largeur": "50 cm (19.5\")",
       "Hauteur": "29 cm (11.5\")"
     }
+  },
+  {
+    "name": "Ensemble bras mixeur",
+    "description": "Batteur à main Cuisinart SmartStick, vendu dans son ensemble avec le bras mixeur, le hachoir et le fouet.",
+    "price": 30,
+    "image": "/static/images/rangement liege.jpg",
+    "links": [
+      {
+        "url": "https://www.canadiantire.ca/fr/pdp/batteur-a-main-cuisinart-smartstick-0431929p.html/",
+        "name": "Lien direct Canadian Tire"
+      }
+    ]
   },
   {
     "name": "Casseroles",
@@ -309,6 +333,13 @@
         "name": "Lien direct Ikea"
       }
     ]
+  },
+  {
+    "name": "Porte chaussures",
+    "description": "Porte chaussures pour toutes vos paires d'été ou d'hiver",
+    "price": 8,
+    "image": "/static/images/rangement chaussure.jpg",
+    "images": ["/static/images/rangement chaussure 2.jpg"]
   },
   {
     "name": "Rideaux occultants",
