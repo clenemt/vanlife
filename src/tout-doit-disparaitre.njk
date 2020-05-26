@@ -6,9 +6,9 @@ data: items
 
 <div class="container">
 
-  <h2 class="text-center font-weight-bold mb-4">Tout doit disparaitre 🐱‍👤</h2>
+  <h2 class="text-center font-weight-bold mb-4">Tout doit disparaitre&nbsp;📦</h2>
 
-  <ul class="nav-items d-flex justify-content-center flex-wrap">
+  <ul class="nav-items d-flex justify-content-center flex-wrap mb-4">
     {% for item in items | sort(false, true, 'name') %}
     <li class="nav-item mx-3 mx-xl-4 mb-2">
       <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{
@@ -18,22 +18,17 @@ data: items
     {% endfor %}
   </ul>
 
-  <marquee scrollamount="12">Tout est vendu en main propre.</marquee>
+  {% include "marquee.njk" %}
 
   <div class="items">
-    {% for item in items %}{% set index = loop.index %}
-    <div
-      id="{{ item.name | slug }}"
-      class="item__images row no-gutters ml-1 ml-md-0"
-    >
+    {% for item in items %}
+    {% set index = loop.index %}
+    <div id="{{ item.name | slug }}" class="item__images row no-gutters ml-1 ml-md-0">
       <div class="col-12 col-md-6 pb-2 pr-2">
         <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
           <div class="embed-responsive embed-responsive-1by1">
             {% if index > 2 %}
-            <img
-              data-src="{{ item.image }}"
-              class="embed-responsive-item lazyload"
-            />
+            <img data-src="{{ item.image }}" class="embed-responsive-item lazyload" />
             {% else %}
             <img src="{{ item.image }}" class="embed-responsive-item" />
             {% endif %}
@@ -42,18 +37,15 @@ data: items
       </div>
 
       <ul class="row col-12 col-md-6 no-gutters">
-        {% for image in item.images %} {% if loop.length === 2 and loop.index
-        === 2 %}
+        {% for image in item.images %}
+        {% if loop.length === 2 and loop.index === 2 %}
         <div class="w-100 d-none d-md-block"></div>
         {% endif %}
         <li class="item__image col-6 pr-2 pb-2">
           <a href="{{ image }}" data-fancybox="gallery-{{ index }}">
             <div class="embed-responsive embed-responsive-1by1">
               {% if index > 2 %}
-              <img
-                data-src="{{ image }}"
-                class="embed-responsive-item lazyload"
-              />
+              <img data-src="{{ image }}" class="embed-responsive-item lazyload" />
               {% else %}
               <img src="{{ image }}" class="embed-responsive-item" />
               {% endif %}
@@ -93,9 +85,15 @@ data: items
           {% endfor %}
         </ul>
         {% endif %}
+
       </div>
     </div>
 
+    {% if loop.index === ((loop.length / 2) | round(0, "floor")) %}
+    {% include "marquee.njk" %}
+    {% endif %}
+
     {% endfor %}
+    {% include "marquee.njk" %}
   </div>
 </div>
