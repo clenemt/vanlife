@@ -264,9 +264,10 @@
   },
   {
     "name": "Chaises pliantes",
-    "description": "2 chaises pliantes TERJE noires.",
+    "description": "x2 chaises pliantes Ikea TERJE noires.",
     "price": 20,
-    "image": "/static/images/casserole.jpg",
+    "image": "/static/images/chaise pliable 1.jpg",
+    "images": ["/static/images/chaise pliable 2.jpg"],
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/terje-chaise-pliante-noir-00222440/",
@@ -288,7 +289,7 @@
   },
   {
     "name": "Micro-ondes",
-    "description": "Micro-ondes 0,9 pi3 Samsung en très bon état",
+    "description": "Micro-ondes Samsung en très bon état pour réchauffer ta poutine du lundi.",
     "price": 50,
     "image": "/static/images/micro onde 1.jpg",
     "images": ["/static/images/micro onde 2.jpg", "/static/images/micro onde 3.jpg"],
@@ -302,7 +303,7 @@
     "name": "Ensemble bras mixeur",
     "description": "Batteur à main Cuisinart SmartStick, vendu dans son ensemble avec le bras mixeur, le hachoir et le fouet.",
     "price": 30,
-    "image": "/static/images/rangement liege.jpg",
+    "image": "/static/images/mixeur.jpg",
     "links": [
       {
         "url": "https://www.canadiantire.ca/fr/pdp/batteur-a-main-cuisinart-smartstick-0431929p.html/",
@@ -362,7 +363,7 @@
   },
   {
     "name": "Porte chaussures",
-    "description": "Porte chaussures pour toutes vos paires d'été ou d'hiver",
+    "description": "Porte chaussures pour tous vos souliers d'été 👡 ou d'hiver ⛸",
     "price": 8,
     "image": "/static/images/rangement chaussure.jpg",
     "images": ["/static/images/rangement chaussure 2.jpg"]
@@ -407,7 +408,7 @@
   },
     {
     "name": "Tabouret",
-    "description": "Marche pied/tabouret Bekväm blanc, Parfait pour vos plantes 🌱 ou vos foufounes",
+    "description": "Marche pied/tabouret Ikea BEKVÄM blanc, Parfait pour vos plantes 🌱 ou vos foufounes.",
     "price": 15,
     "image": "/static/images/tabouret 1.jpg",
     "images": ["/static/images/tabouret 2.jpg", "/static/images/tabouret 3.jpg"]
