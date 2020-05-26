@@ -10,7 +10,7 @@ data: items
 
   <ul class="nav-items d-flex justify-content-center flex-wrap mb-4">
     {% for item in items | sort(false, true, 'name') %}
-    <li class="nav-item mx-3 mx-xl-4 mb-2">
+    <li class="nav-item mx-3 mx-xl-4 mb-2 {{ "text-decoration-line-through" if item.sold }}">
       <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{ item.name }}</a>
     </li>
     {% endfor %}
@@ -57,8 +57,7 @@ data: items
     <div class="item__content col col-lg-6">
       <div class="ml-2 ml-md-3 ml-xl-5">
         <h1 class="item__header mb-3">
-          <span class="mr-3 mr-md-4">{{ item.name }}</span
-          ><span class="item__price my-2">${{ item.price }}</span>
+          <span class="mr-3 mr-md-4 {{ "text-decoration-line-through" if item.sold }}">{{ item.name }}</span><span class="item__price my-2">{% if item.sold %}SOLD{% else %}${{ item.price }}{% endif %}</span>
         </h1>
 
         <p class="item__description">{{ item.description | safe }}</p>
@@ -81,26 +80,30 @@ data: items
         </ul>
         {% endif %}
 
+        {% if not item.sold %}
         <span class="text-primary">
           <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
         </span>
 
         {% set cta = [
           "Je veux ça",
-          "Ca c'est pour moi",
+          "Ça c'est pour moi",
           "Je le veux",
           "Je prends",
           "J'aime ça",
           "Je magasine",
           "À moi",
           "Tellement beau",
-          "J'àchète",
+          "J'achète",
           "Je signe où",
           "Parfait pour mon caniche",
-          "Au pire je le donne à mon voisin"
+          "Au pire je le donne à mon voisin",
+          "Je me le garde sous le coude",
+          "C'est mon style tout craché"
         ] | random %}
 
         <a class="a" href="mailto:floriane.jacqueneau+fcvan@gmail.com?subject={{ item.name }} - {{ cta }}&body=Bonjour Clément et Floriane,%0A%0AJ'aimerai acheter l'objet suivant: {{ item.name }} au prix de ${{ item.price }}.%0APar contre j'aimerai savoir si...%0A%0AJ'ai bien vu que vous habitiez sur le plateau et non pas au Lac Saint-Jean et je suis prêt(e) à me déplacer si nécessaire.%0A%0AMerci.">{{ cta }} !</a>
+        {% endif %}
       </div>
     </div>
     {% endfor %}

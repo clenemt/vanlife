@@ -91,6 +91,7 @@
     "name": "KitchenAid artisan",
     "description": "KitchenAid artisan de couleur pistache vendu avec le shredder et 3 fouets. Pour la boulangèr(e) 🥐 qui sommeil en toi.",
     "price": 400,
+    "sold": true,
     "image": "/static/images/kitchenaid 1.jpg",
     "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg", "/static/images/kitchenaid 4.jpg"],
     "data": {
@@ -136,6 +137,7 @@
     "name": "Table",
     "description": "Table de salle à manger V de V. Accueil jusqu'à 8 personnes ou 4 en période de confinement. Vendue avec ou sans les chaises 🪑 (+ $50).",
     "price": 375,
+    "sold": true,
     "image": "/static/images/table-1.jpg",
     "images": [
       "/static/images/table-2.jpg",
@@ -340,6 +342,7 @@
     "name": "Lampe de bureau",
     "description": "Lampe Ikea FORSÅ bleue avec ampoule.",
     "price": 15,
+    "sold": true,
     "image": "/static/images/lampe bleue 1.jpg",
     "images": ["/static/images/lampe bleue 2.jpg"],
     "links": [
@@ -372,6 +375,7 @@
     "name": "Ventilateur",
     "description": "Élément essentiel pour passer un bel été 🔥 à Montréal. Ventilateur sur pied Facto, 3 vitesses et grand angle d'oscillation.",
     "price": 10,
+    "sold": true,
     "image": "/static/images/ventilo 1.jpg",
     "images": ["/static/images/ventilo 2.jpg"]
   },
