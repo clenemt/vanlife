@@ -61,6 +61,7 @@
     "name": "Console",
     "description": "Console rétro en bois vernis et porte peinte en noir.",
     "price": 150,
+    "sold": true,
     "image": "/static/images/meuble retro 1.jpg",
     "images": ["/static/images/meuble retro 2.jpg", "/static/images/meuble retro 3.jpg"],
     "data": {
@@ -211,6 +212,7 @@
     "name": "Commode",
     "description": "Commode à trois tiroirs Ikea ASKVOLL effet chêne blanchi. Les bobettes rentrent tip top.",
     "price": 50,
+    "sold": true,
     "image": "/static/images/commode 1.jpg",
     "images": ["/static/images/commode 2.jpg"],
     "data": {
@@ -305,6 +307,7 @@
     "name": "Ensemble bras mixeur",
     "description": "Batteur à main Cuisinart SmartStick, vendu dans son ensemble avec le bras mixeur, le hachoir et le fouet.",
     "price": 30,
+    "sold": true,
     "image": "/static/images/mixeur.jpg",
     "links": [
       {
@@ -414,6 +417,7 @@
     "name": "Tabouret",
     "description": "Marche pied/tabouret Ikea BEKVÄM blanc. Parfait pour vos plantes 🌱 ou vos foufounes.",
     "price": 15,
+    "sold": true,
     "image": "/static/images/tabouret 1.jpg",
     "images": ["/static/images/tabouret 2.jpg", "/static/images/tabouret 3.jpg"],
     "links": [
