@@ -92,7 +92,7 @@
     "description": "KitchenAid artisan de couleur pistache vendu avec le shredder et 3 fouets. Pour la boulangèr(e) 🥐 qui sommeil en toi.",
     "price": 400,
     "image": "/static/images/kitchenaid 1.jpg",
-    "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg"],
+    "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg"], "/static/images/kitchenaid 4.jpg"],
     "data": {
       "Profondeur": "36 cm (14\")",
       "Largeur": "23.5 cm (9\")",
@@ -239,7 +239,7 @@
   {
     "name": "Bouilloire",
     "description": "Bouilloire électrique Salton en verre inoxydable. Lumière bleue chaleureuse pendant la chauffe !",
-    "price": 30,
+    "price": 20,
     "image": "/static/images/bouilloire.jpg",
     "links": [
       {
@@ -247,6 +247,18 @@
         "name": "Lien direct Amazon"
       }
     ]
+  },
+  {
+    "name": "Micro-ondes",
+    "description": "Micro-ondes 0,9 pi3 Samsung en très bon état",
+    "price": 50,
+    "image": "/static/images/micro onde 1.jpg",
+    "images": ["/static/images/micro onde 2.jpg", "/static/images/micro onde 3.jpg"],
+    "data": {
+      "Profondeur": "38 cm (15\")",
+      "Largeur": "50 cm (19.5\")",
+      "Hauteur": "29 cm (11.5\")"
+    }
   },
   {
     "name": "Casseroles",
@@ -289,7 +301,7 @@
   {
     "name": "Rangement bureau",
     "description": "Rangement en liège Ikea PLEJA noir.",
-    "price": 10,
+    "price": 8,
     "image": "/static/images/rangement liege.jpg",
     "links": [
       {
@@ -326,7 +338,7 @@
     "name": "Rideaux beige",
     "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux",
     "price": 15,
-    "image": "/static/images/rideau b 1.jpg",
-    "images": ["/static/images/rideau b 2.jpg"]
+    "image": "/static/images/rideau b 3.jpg",
+    "images": ["/static/images/rideau b 2.jpg", "/static/images/rideau b 1.jpg"]
   }
 ]
