@@ -8,20 +8,23 @@ ul {
   padding: 0;
 }
 
-//
-// Navigation
-//
-
-.nav-items {
-  font-size: $fs-sm;
+h2 {
   margin-top: 3rem;
-  margin-bottom: 1.5rem;
 
   @media (min-width: 992px) {
     margin-top: 6rem;
     margin-left: 8rem;
     margin-right: 8rem;
   }
+}
+
+//
+// Navigation
+//
+
+.nav-items {
+  font-size: $fs-sm;
+  margin-bottom: 1.5rem;
 }
 
 .nav-item a {

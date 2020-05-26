@@ -5,6 +5,9 @@ data: items
 ---
 
 <div class="container">
+
+  <h2 class="text-center font-weight-bold mb-4">Tout doit disparaitre 🐱‍👤</h2>
+
   <ul class="nav-items d-flex justify-content-center flex-wrap">
     {% for item in items | sort(false, true, 'name') %}
     <li class="nav-item mx-3 mx-xl-4 mb-2">
@@ -14,6 +17,8 @@ data: items
     </li>
     {% endfor %}
   </ul>
+
+  <marquee scrollamount="12">Tout est vendu en main propre.</marquee>
 
   <div class="items">
     {% for item in items %}{% set index = loop.index %}

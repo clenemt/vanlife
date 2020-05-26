@@ -92,7 +92,7 @@
     "description": "KitchenAid artisan de couleur pistache vendu avec le shredder et 3 fouets. Pour la boulangèr(e) 🥐 qui sommeil en toi.",
     "price": 400,
     "image": "/static/images/kitchenaid 1.jpg",
-    "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg"], "/static/images/kitchenaid 4.jpg"],
+    "images": ["/static/images/kitchenaid 2.jpg", "/static/images/kitchenaid 3.jpg", "/static/images/kitchenaid 4.jpg"],
     "data": {
       "Profondeur": "36 cm (14\")",
       "Largeur": "23.5 cm (9\")",
