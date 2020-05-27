@@ -74,6 +74,7 @@
     "name": "Lampe de salon",
     "description": "Lampe en papier 🏮 Ikea SOLLEFTEÅ blanche.",
     "price": 20,
+    "sold": true,
     "image": "/static/images/lamp 1.jpg",
     "images": ["/static/images/lamp 2.jpg", "/static/images/lamp 3.jpg"],
     "data": {
@@ -258,6 +259,7 @@
     "name": "Lampes murales",
     "description": "2x lampes murales noires Ikea HEKTAR avec ampoules. Parfait pour votre tête de lit.",
     "price": 30,
+    "sold": true,
     "image": "/static/images/2 lampes 1.jpg",
     "images": ["/static/images/2 lampes 2.jpg", "/static/images/2 lampes 3.jpg"],
     "links": [
@@ -321,6 +323,7 @@
     "name": "Casseroles",
     "description": "Les casseroles classiques d'Ikea KAVALKAD. Si vous présentez bien, on rajoutera même une poêle ou deux.",
     "price": 10,
+    "sold": true,
     "image": "/static/images/casserole.jpg",
     "links": [
       {
