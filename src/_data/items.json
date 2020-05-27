@@ -340,6 +340,7 @@
     "name": "Cuiseur",
     "description": "Sert à la fois de rice cooker et pour cuire les légumes.",
     "price": 40,
+    "sold": true,
     "image": "/static/images/cuiseur.jpg"
   },
   {
