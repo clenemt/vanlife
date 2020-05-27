@@ -311,6 +311,7 @@
     "name": "Micro-ondes",
     "description": "Micro-ondes Samsung en très bon état pour réchauffer ta poutine du lundi.",
     "price": 50,
+    "sold": true,
     "image": "/static/images/micro onde 1.jpg",
     "images": ["/static/images/micro onde 2.jpg", "/static/images/micro onde 3.jpg"],
     "data": {
