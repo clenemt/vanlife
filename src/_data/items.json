@@ -172,7 +172,7 @@
   {
     "name": "Canapé convertible",
     "description": "Canapé-lit Ikea NYHAMN beige. Vendu avec matelas et housse. Utilisé 5 fois, promis 🤞.",
-    "price": 275,
+    "price": 250,
     "image": "/static/images/canap lit 1.jpg",
     "images": ["/static/images/canap lit 2.jpg", "/static/images/canap lit 3.jpg"],
     "data": {
