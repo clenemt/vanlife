@@ -135,6 +135,19 @@
       }
     ]
   },
+    {
+    "name": "Plafonier et ampoule",
+    "description": "Plafonier blanc Ikea RANARP et sa belle ampoule",
+    "price": 20,
+    "image": "/static/images/lampe plafond 1.jpg",
+    "images": ["/static/images/lampe plafond 2.jpg", "/static/images/lampe plafond 3.jpg"],
+    "links": [
+      {
+        "url": "https://www.ikea.com/ca/fr/p/ranarp-suspension-blanc-casse-10390975/",
+        "name": "Lien direct Ikea"
+      }
+    ]
+  },
   {
     "name": "Table",
     "description": "Table de salle à manger V de V. Accueil jusqu'à 8 personnes ou 4 en période de confinement. Vendue avec ou sans les chaises 🪑 (+ $50).",
