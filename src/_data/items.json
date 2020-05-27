@@ -3,6 +3,7 @@
     "name": "Canapé 3 places",
     "description": "Canapé Structube en bon état, assise très confortable 💺 pour regarder un film ou lire un livre. <strong>Disponible dès le 20 juin.</strong>",
     "price": 300,
+    "sold": true,
     "image": "/static/images/c1.jpg",
     "images": [
       "/static/images/c2.jpg",
@@ -26,6 +27,7 @@
     "name": "Table basse",
     "description": "Table basse en bois et métal achetée sur Kijiji. Parfait si vous détestez les tables qui marquent ou tâchent facilement.",
     "price": 150,
+    "sold": true,
     "image": "/static/images/table basse 1.jpg",
     "images": [
       "/static/images/table basse 2.jpg",
@@ -116,6 +118,7 @@
     "name": "Bibliothèque",
     "description": "Meuble de rangement 📚 Ikea KALLAX blanc. Inclus 2x portes, poignets et 2x tiroirs.",
     "price": 90,
+    "sold": true,
     "image": "/static/images/etageres ikea 1.jpg",
     "images": [
       "/static/images/etageres ikea 2.jpg",
@@ -243,8 +246,8 @@
   },
   {
     "name": "Bureau et sa chaise",
-    "description": "Planche et tréteaux pour un bureau parfait. Vendu avec ou sans sa chaise (+$100). Effet chêne blanchi et tréteaux gris foncés.",
-    "price": 60,
+    "description": "Planche et tréteaux pour un bureau parfait. Vendu avec ou sans sa chaise. Effet chêne blanchi et tréteaux gris foncés.",
+    "price": 180,
     "sold": true,
     "image": "/static/images/desk 1.jpg",
     "images": ["/static/images/desk chair.jpg"],
@@ -286,6 +289,7 @@
     "name": "Chaises pliantes",
     "description": "x2 chaises pliantes Ikea TERJE noires.",
     "price": 20,
+    "sold": true,
     "image": "/static/images/chaise pliable 1.jpg",
     "images": ["/static/images/chaise pliable 2.jpg"],
     "links": [
@@ -299,6 +303,7 @@
     "name": "Bouilloire",
     "description": "Bouilloire électrique Salton en verre inoxydable. Lumière bleue chaleureuse pendant la chauffe !",
     "price": 20,
+    "sold": true,
     "image": "/static/images/bouilloire.jpg",
     "links": [
       {
@@ -350,6 +355,7 @@
     "name": "Grille pain",
     "description": "Un grille pain ben simple.",
     "price": 15,
+    "sold": true,
     "image": "/static/images/grille pain 1.jpg",
     "images": ["/static/images/grille pain 2.jpg"]
   },
@@ -378,6 +384,7 @@
     "name": "Rangement bureau",
     "description": "Rangement en liège Ikea PLEJA noir.",
     "price": 8,
+    "sold": true,
     "image": "/static/images/rangement liege.jpg",
     "links": [
       {
@@ -390,6 +397,7 @@
     "name": "Porte chaussures",
     "description": "Porte chaussures pour tous vos souliers d'été 👡 ou d'hiver ⛸",
     "price": 8,
+    "sold": true,
     "image": "/static/images/rangement chaussure.jpg",
     "images": ["/static/images/rangement chaussure 2.jpg"]
   },
@@ -405,6 +413,7 @@
     "name": "Rideaux occultants",
     "description": "Rideaux opaques Ikea MAJGULL bleu foncé avec tringle et anneaux. Si vous dormez que dans le noir total, alors c'est tiguidou pour vous. <strong>Disponible le 25 juin.</strong>",
     "price": 25,
+    "sold": true,
     "image": "/static/images/rideau 1.jpg",
     "images": ["/static/images/rideau 2.jpg", "/static/images/rideau 3.jpg"],
     "data": {
@@ -450,6 +459,7 @@
     "name": "Aspirateur",
     "description": "Aspirateur au look rétro mais pourtant bien moderne de la marque Bissell.",
     "price": 50,
+    "sold": true,
     "image": "/static/images/aspi 1.jpg",
     "images": ["/static/images/aspi 2.jpg", "/static/images/aspi 3.jpg"],
     "links": [
@@ -480,6 +490,7 @@
     "name": "Grande Poubelle",
     "description": "Poubelle de 45l pour y jeter tout ce que vous voulez. Pensez quand même au recyclage ♻️",
     "price": 60,
+    "sold": true,
     "image": "/static/images/poubelle 1.jpg",
     "images": ["/static/images/poubelle 2.jpg", "/static/images/poubelle 3.jpg"],
     "links": [
@@ -497,7 +508,7 @@
     "images": ["/static/images/sorel 2.jpg", "/static/images/sorel 3.jpg"]
   },
     {
-    "name": "Rideaux décoratifs",
+    "name": "Rideaux",
     "description": "Encore des rideaux. Mais c'est toujours beaux les rideaux, surtout ce style en lin beige tout simple. Vendus avec les tringles",
     "price": 10,
     "image": "/static/images/rideau salon 1.jpg",
@@ -507,6 +518,7 @@
     "name": "Fer à repasser",
     "description": "Fer à repasser vendu avec sa belle planche à motif jaune.",
     "price": 20,
+    "sold": true,
     "image": "/static/images/planche 1.jpg",
     "images": ["/static/images/planche 2.jpg", "/static/images/planche 3.jpg"]
   }
