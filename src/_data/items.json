@@ -434,10 +434,10 @@
   },
     {
     "name": "Aspirateur",
-    "description": "Aspirateur au look rétro mais bien pourtant bien moderne de la marque Bissell",
-    "price": 60,
+    "description": "Aspirateur au look rétro mais pourtant bien moderne de la marque Bissell.",
+    "price": 50,
     "image": "/static/images/aspi 1.jpg",
-    "images": ["/static/images/aspi 2.jpg", "/static/images/aspi 3.jpg"]
+    "images": ["/static/images/aspi 2.jpg", "/static/images/aspi 3.jpg"],
     "links": [
       {
         "url": "https://canada.bissell.com/hard-floor-expert-canister-vacuum-1547",
@@ -447,13 +447,13 @@
   },
     {
     "name": "Grande Poubelle",
-    "description": "Poubelle de 45l pour y jeter tout ce que vous voulez, mais pensez quand même au recyclage ♻️",
+    "description": "Poubelle de 45l pour y jeter tout ce que vous voulez. Pensez quand même au recyclage ♻️",
     "price": 60,
     "image": "/static/images/poubelle 1.jpg",
-    "images": ["/static/images/poubelle 2.jpg", "/static/images/poubelle 3.jpg"]
+    "images": ["/static/images/poubelle 2.jpg", "/static/images/poubelle 3.jpg"],
     "links": [
       {
-        "url": "https://www.amazon.ca/dp/B01J9646RS/ref=pe_3034960_233709270_TE_item",
+        "url": "https://www.amazon.ca/dp/B01J9646RS/",
         "name": "Lien direct Amazon"
       }
     ]
