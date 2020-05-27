@@ -231,6 +231,7 @@
     "name": "Bureau et sa chaise",
     "description": "Planche et tréteaux pour un bureau parfait. Vendu avec ou sans sa chaise (+$100). Effet chêne blanchi et tréteaux gris foncés.",
     "price": 60,
+    "sold": true,
     "image": "/static/images/desk 1.jpg",
     "images": ["/static/images/desk chair.jpg"],
     "data": {
