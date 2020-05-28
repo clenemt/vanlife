@@ -226,6 +226,32 @@
     }
   },
   {
+    "name": "Velo Femme",
+    "description": "B'Twin single speed parfait pour la ville 🚲. Vendu avec ou sans deux pneus d'hiver cloutés(+50$). Vélo acheté il y a un an en parfait état de marche. <strong>Disponible le 20 juin.</strong>",
+    "price": 150,
+    "image": "/static/images/velo f 1.jpg",
+    "images": ["/static/images/velo f 2.jpg", "/static/images/velo f 3.jpg"],
+    "data": {
+      "Taille": "Le vélo a des roues de 28 pouces (71cm) et convient aux cyclistes mesurant de 1,55 m à 1,75 m"
+    },
+    "links": [
+      {
+        "url": "https://www.decathlon.co.uk/elops-100-step-over-classic-bike-black-id_8487234.html",
+        "name": "Lien Decathlon"
+      }
+    ]
+  },
+    {
+    "name": "Velo Homme",
+    "description": "Vélo single speed tout beau tout vert pour une conduite écolo 🚲 🌱. <strong>Disponible le 20 juin.</strong>",
+    "price": 100,
+    "image": "/static/images/velo h1.jpg",
+    "images": ["/static/images/velo h2.jpg"],
+    "data": {
+      "Taille": "Convient aux cyclistes mesurant de 1,80 m à 1,90 m"
+    }
+  },
+  {
     "name": "Commode",
     "description": "Commode à trois tiroirs Ikea ASKVOLL effet chêne blanchi. Les bobettes rentrent tip top.",
     "price": 50,
