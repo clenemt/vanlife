@@ -248,7 +248,7 @@
     "image": "/static/images/velo h1.jpg",
     "images": ["/static/images/velo h2.jpg"],
     "data": {
-      "Taille": "Convient aux cyclistes mesurant de 1,80 m à 1,90 m"
+      "Taille": "Convient aux cyclistes mesurant de 1,75 m à 1,90 m"
     }
   },
   {
@@ -426,6 +426,13 @@
     "sold": true,
     "image": "/static/images/rangement chaussure.jpg",
     "images": ["/static/images/rangement chaussure 2.jpg"]
+  },
+  {
+    "name": "Bibliothèque bleue",
+    "description": "Bibliothèque de type Billy Ikea bleue, toute belle et bien pratique",
+    "price": 15,
+    "image": "/static/images/e1.jpg",
+    "images": ["/static/images/e2.jpg", "/static/images/e3.jpg"]
   },
   {
     "name": "Ventilateur",
