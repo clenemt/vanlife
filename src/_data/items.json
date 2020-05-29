@@ -228,9 +228,10 @@
     }
   },
   {
-    "name": "Velo Femme",
+    "name": "Vélo Femme",
     "description": "B'Twin single speed parfait pour la ville 🚲. Vendu avec ou sans deux pneus d'hiver cloutés(+50$). Vendu également avec ses deux lampes rechargeables, son lock et un casque. Vélo acheté il y a un an en parfait état de marche. <strong>Disponible le 20 juin.</strong>",
     "price": 175,
+    "sold": true,
     "image": "/static/images/velo f 1.jpg",
     "images": ["/static/images/velo f 2.jpg", "/static/images/velo f 3.jpg"],
     "data": {
@@ -244,7 +245,7 @@
     ]
   },
     {
-    "name": "Velo Homme",
+    "name": "Vélo Homme",
     "description": "Vélo single speed tout beau tout vert pour une conduite écolo 🚲 🌱.  Vendu également avec sa lampe avant rechargeable, son lock et un casque. <strong>Disponible le 20 juin.</strong>",
     "price": 100,
     "image": "/static/images/velo h1.jpg",
