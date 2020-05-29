@@ -10,17 +10,3 @@ $("a[href^='mailto:']").click(function (e) {
   e.preventDefault();
   window.open($(this).attr('href'));
 });
-
-// Simple tracking
-const COOKIE = 'F_C_AGNES';
-const $form = $('[data-form]');
-if (
-  $form.length &&
-  !document.cookie.split(';').find((cookie) => cookie.startsWith(COOKIE))
-) {
-  $.post($form.attr('action'), $form.serialize()).then(() => {
-    const expires = new Date();
-    expires.setTime(expires.getTime() + 10 * 365 * 24 * 60 * 60);
-    document.cookie = `${COOKIE}=true; expires=${expires.toUTCString()}; path=/`;
-  });
-}

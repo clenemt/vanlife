@@ -140,7 +140,7 @@
   },
     {
     "name": "Plafonier et ampoule",
-    "description": "Plafonier blanc Ikea RANARP et sa belle ampoule",
+    "description": "Plafonier blanc Ikea RANARP et sa belle ampoule au design tellement rétro.",
     "price": 20,
     "image": "/static/images/lampe plafond 1.jpg",
     "images": ["/static/images/lampe plafond 2.jpg", "/static/images/lampe plafond 3.jpg"],
@@ -504,14 +504,14 @@
   },
     {
     "name": "3 Stores blanc",
-    "description": "3 store blanc Ikea SKOGSKLÖVER.",
+    "description": "3 stores blanc Ikea SKOGSKLÖVER. Parfait pour filtrer juste ce qu'il faut de lumière dans un salon ou bureau.",
     "price": "15 chacun",
     "image": "/static/images/store 1.jpg",
     "images": ["/static/images/store 2.jpg", "/static/images/store 3.jpg", "/static/images/store 4.jpg"],
     "data": {
       "Largeur": "x2 59, 69 cm (x2 23, 27\")",
       "Hauteur": "195 cm (77\")"
-    },  
+    },
     "links": [
       {
         "url": "https://www.ikea.com/ca/fr/p/skogskloever-store-a-enrouleur-blanc-30314589/",
@@ -542,7 +542,7 @@
   },
     {
     "name": "Rideaux",
-    "description": "Encore des rideaux. Mais c'est toujours beaux les rideaux, surtout ce style en lin beige tout simple. Vendus avec les tringles",
+    "description": "Encore des rideaux. Mais c'est toujours beaux les rideaux, surtout ce style en lin beige tout simple. Vendus avec les tringles.",
     "price": 10,
     "image": "/static/images/rideau salon 1.jpg",
     "images": ["/static/images/rideau salon 2.jpg"]
