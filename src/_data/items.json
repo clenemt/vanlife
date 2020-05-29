@@ -217,6 +217,7 @@
     "name": "Meuble tiroir",
     "description": "Meuble de rangement à tiroir coulissant noir et blanc. Parfait pour mettre les chaussures ou la couette d'hiver.",
     "price": 40,
+    "sold": true,
     "image": "/static/images/meuble noir 1.jpg",
     "images": ["/static/images/meuble noir 2.jpg", "/static/images/meuble noir 3.jpg"],
     "data": {
@@ -431,6 +432,7 @@
     "name": "Bibliothèque bleue",
     "description": "Bibliothèque de type Billy Ikea bleue, toute belle et bien pratique",
     "price": 15,
+    "sold": true,
     "image": "/static/images/e1.jpg",
     "images": ["/static/images/e2.jpg", "/static/images/e3.jpg"]
   },
