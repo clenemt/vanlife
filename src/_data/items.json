@@ -194,6 +194,7 @@
     "name": "Lit",
     "description": "Structure de lit 🛌 trés grand (King Size) Ikea MALM blanc. Inclus structure, lattes Lönset et matelas. <strong>Disponible le 25 juin.</strong>",
     "price": 600,
+    "sold": true,
     "image": "/static/images/lit 1.jpg",
     "images": ["/static/images/lit 2.jpg", "/static/images/lit 3.jpg"],
     "data": {
@@ -466,7 +467,7 @@
   },
   {
     "name": "Plantes",
-    "description": "Nos plus belles locatrices cherchent de nouveaux acquéreurs. Attention elles ne feront pas le ménage chez vous et vous ferons la tête si vous ne les 🚿 arrosez pas régulièrement. <strong>Disponible dès le 20 juin.</strong> <ol><li>Grande Ceropegia woodii et son pot - <strong>SOLD</strong><li>Moyen Ficus elastica et son pot - <strong class='text-primary'>$20</strong></li><li>Moyenne Hoyas, son pot et sa suspension - <strong>SOLD</strong></li><li>Pothos Aureum 6 pouces et son pot - <strong>SOLD</strong></li><li>Grande Philodendron Cordatum, son pot et sa suspension - <strong>SOLD</strong></li><li>Moyenne Pilea sans son pot - <strong>SOLD</strong></li><li>Fittonia sans son cache pot - <strong class='text-primary'>$10</strong></li><li>Plante grasse sans son pot - <strong class='text-primary'>$5</strong></li> <li>Bébé Pilea - <strong>SOLD</strong></li><li>Plante grasse et son pot - <strong class='text-primary'>$8</strong></li><li>Plante grasse sans son pot - <strong class='text-primary'>$5</strong></li><li>Crassula portulacea et son pot - <strong class='text-primary'>$15</strong></li><li>Grande Monstera Deliciosa et son pot <strong>SOLD</strong></li></ol>",
+    "description": "Nos plus belles locatrices cherchent de nouveaux acquéreurs. Attention elles ne feront pas le ménage chez vous et vous ferons la tête si vous ne les 🚿 arrosez pas régulièrement. <strong>Disponible dès le 20 juin.</strong> <ol><li>Grande Ceropegia woodii et son pot - <strong>SOLD</strong><li>Moyen Ficus elastica et son pot - <strong class='text-primary'>$20</strong></li><li>Moyenne Hoyas, son pot et sa suspension - <strong>SOLD</strong></li><li>Pothos Aureum 6 pouces et son pot - <strong>SOLD</strong></li><li>Grande Philodendron Cordatum, son pot et sa suspension - <strong>SOLD</strong></li><li>Moyenne Pilea sans son pot - <strong>SOLD</strong></li><li>Fittonia sans son cache pot - <strong class='text-primary'>$10</strong></li><li>Plante grasse sans son pot - <strong>SOLD</strong></li> <li>Bébé Pilea - <strong>SOLD</strong></li><li>Plante grasse et son pot - <strong class='text-primary'>$8</strong></li><li>Plante grasse sans son pot - <strong class='text-primary'>$5</strong></li><li>Crassula portulacea et son pot - <strong class='text-primary'>$15</strong></li><li>Grande Monstera Deliciosa et son pot <strong>SOLD</strong></li></ol>",
     "price": "🌱",
     "image": "/static/images/plantes 1.jpg",
     "images": ["/static/images/plantes 2.jpg", "/static/images/plantes 4.jpg", "/static/images/plantes 5.jpg", "/static/images/plantes 3.jpg"]
@@ -475,6 +476,7 @@
     "name": "Rideaux beige",
     "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux.",
     "price": 15,
+    "sold": true,
     "image": "/static/images/rideau b 3.jpg",
     "images": ["/static/images/rideau b 2.jpg", "/static/images/rideau b 1.jpg"]
   },
