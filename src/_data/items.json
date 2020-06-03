@@ -476,7 +476,6 @@
     "name": "Rideaux beige",
     "description": "Rideaux beige bein simple. Pour laisser passer la lumière mais pas trop quand même. Avec tringles et anneaux.",
     "price": 15,
-    "sold": true,
     "image": "/static/images/rideau b 3.jpg",
     "images": ["/static/images/rideau b 2.jpg", "/static/images/rideau b 1.jpg"]
   },
@@ -550,6 +549,7 @@
     "name": "Rideaux",
     "description": "Encore des rideaux. Mais c'est toujours beaux les rideaux, surtout ce style en lin beige tout simple. Vendus avec les tringles.",
     "price": 10,
+    "sold": true,
     "image": "/static/images/rideau salon 1.jpg",
     "images": ["/static/images/rideau salon 2.jpg"]
   },
