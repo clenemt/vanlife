@@ -1,18 +1,104 @@
 ---
 layout: default
-bodyClass: h-100 bg-icons
-htmlClass: h-100
+title: Moving sale
+data: items
 ---
 
-<div class="container h-100 d-flex flex-column align-items-center justify-content-center text-primary text-center lead">
-  <h1 class="mb-5">Allo 👋</h1>
+<div class="container">
 
-  <p class="mb-3 mb-md-4 mb-xl-5">Penses-tu que Floriane et Clément
-vont réussir à faire leur 🚐 voyage
-malgré la <span class="bg-primary text-white px-2">COVID&#x2011;19</span>&nbsp;?</p>
+  <h2 class="text-center font-weight-bold mb-4">Highland Park Moving sale</h2>
 
-  <div class="pt-3 pt-md-5 d-flex flex-column">
-    <a class="btn btn--primary" href="/oui">Oui</a>
-    <a class="btn btn--primary" href="/non">Non</a>
+  <ul class="nav-items d-flex justify-content-center flex-wrap mb-4">
+    {% for item in items | sort(false, true, 'name') %}
+    <li class="nav-item mx-3 mx-xl-4 mb-2 {{ "text-decoration-line-through" if item.sold }}">
+      <a href="#{{ item.name | slug }}" title="{{ item.description }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {# include "marquee.njk" #}
+
+  <div class="items mb-4">
+    {% for item in items %}
+    {% set index = loop.index %}
+    <div id="{{ item.name | slug }}" class="item__images row no-gutters ml-1 ml-md-0">
+      <div class="col-12 col-md-6 pb-2 pr-2">
+        <a href="{{ item.image }}" data-fancybox="gallery-{{ index }}">
+          <div class="embed-responsive embed-responsive-1by1">
+            {% if index > 2 %}
+            <img data-src="{{ item.image }}" class="embed-responsive-item lazyload" />
+            {% else %}
+            <img src="{{ item.image }}" class="embed-responsive-item" />
+            {% endif %}
+          </div>
+        </a>
+      </div>
+
+      <ul class="row col-12 col-md-6 no-gutters">
+        {% for image in item.images %}
+        {% if loop.length === 2 and loop.index === 2 %}
+        <div class="w-100 d-none d-md-block"></div>
+        {% endif %}
+        <li class="item__image col-6 pr-2 pb-2">
+          <a href="{{ image }}" data-fancybox="gallery-{{ index }}">
+            <div class="embed-responsive embed-responsive-1by1">
+              {% if index > 2 %}
+              <img data-src="{{ image }}" class="embed-responsive-item lazyload" />
+              {% else %}
+              <img src="{{ image }}" class="embed-responsive-item" />
+              {% endif %}
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="item__content col col-lg-6">
+      <div class="ml-2 ml-md-3 ml-xl-5">
+        <h1 class="item__header mb-3">
+          <span class="mr-3 mr-md-4 {{ "text-decoration-line-through" if item.sold }}">{{ item.name }}</span><span class="item__price my-2">{% if item.sold %}SOLD{% else %}${{ item.price }}{% endif %}</span>
+        </h1>
+
+        <p class="item__description">{{ item.description | safe }}</p>
+
+        {% if item.data %}
+        <ul class="item__data mb-3">
+          {% for name, description in item.data %}
+          <li>{{ name }}: {{ description | safe }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if item.links %}
+        <ul class="item__links mb-3">
+          {% for link in item.links %}
+          <li>
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if not item.sold %}
+        <span class="text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        </span>
+
+        {% set cta = [
+	  "I'd like this",
+          "That's a good deal",
+          "I'm interested in buying this",
+          "I love it"
+        ] | random %}
+
+        <a class="a" href="mailto:reboumans+moving@gmail.com?subject={{ item.name }} - {{ cta }}&body=Hello Ruben, I'd like to buy: {{ item.name }} for ${{ item.price }}.%0AOn the other hand, I would like to know if ...%0A%0AI saw you live in Highland Park and I'm willing to come pick it up if needed.%0A%0AGreetings,">{{ cta }} !</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+    {# include "marquee.njk" #}
+
   </div>
 </div>
