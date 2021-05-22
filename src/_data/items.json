@@ -1,35 +1,81 @@
 [
   {
-    "name": "Test",
-    "description": "Description <strong>strong</strong>",
-    "price": 300,
+    "name": "Bedroom set",
+    "description": "Bedroom furniture set with pocket spring mattress, only 1.5 years old. Includes a bed with box-springs, a vertical dresser with mirror, two nightstands and a horizontal dresser. Send a message for individual pieces",
+    "price": 600,
     "sold": false,
-    "image": "/static/images/na1.jpg",
+    "image": "/static/images/bed_1.jpg",
     "images": [
-      "/static/images/na2.jpg",
-      "/static/images/na3.jpg",
-      "/static/images/na4.jpg",
-      "/static/images/na5.jpg"
+      "/static/images/bed_2.jpg",
+      "/static/images/nightstand.jpg",
+      "/static/images/vertical_dresser.jpg",
+      "/static/images/horizontal_dresser.jpg"
     ],
     "data": {
-      "Original price": "500"
+      "Original price": "$1300",
+      "Bed size": "Queen"
+    }
+  },
+  {
+    "name": "Standing desk office set",
+    "description": "Full work-from-home office furniture set. Converting standing desk with desktop mounted power strip, arm-mounted monitor, stepping machine with exercise mat and desk chair. The frame allows a range of desktop sizes to make a bigger or smaller desk.  Send a message for individual pieces",
+    "price": 750,
+    "sold": false,
+    "image": "/static/images/office_high_1.jpg",
+    "images": [
+      "/static/images/office_high_2.jpg",
+      "/static/images/office_low_1.jpg",
+      "/static/images/office_low_2.jpg",
+      "/static/images/office_chair.jpg"
+
+    ],
+    "data": {
+      "Original price": "$1100",
+      "Length": "59\"",
+      "Width": "29 1/2\""
     },
     "links": [
       {
-        "url": "https://www.google.com",
-        "name": "Google"
+        "url": "https://www.fully.com/standing-desks/desk-frames/jarvis-crank-powered-frame-only.html",
+        "name": "Desk frame"
+      },
+      {
+        "url": "https://www.fully.com/accessories/wire-management/clamp-mounted-surge-protector.html",
+        "name": "Desktop mounted power strip"
+      },
+      {
+        "url": "https://www.bhphotovideo.com/c/product/1090259-REG/dell_u2415_24_ultrasharp_led_monitor.html",
+        "name": "24\" Monitor"
+      },
+      {
+        "url": "https://www.fully.com/accessories/monitor-arms/jarvis-monitor-arm.html",
+        "name": "Monitor arm"
+      },
+      {
+        "url": "https://www.costco.com/hon-vl700-series-black-mesh-swiveltilt-mid-back-chair.product.11612532.html",
+        "name": "Desk chair"
+      },
+      {
+        "url": "https://www.amazon.com/gp/product/B009N9PX2O",
+        "name": "Elliptical stepper"
+      },
+      {
+        "url": "https://www.amazon.com/gp/product/B004IJJZN2",
+        "name": "Equipment mat"
       }
     ]
   },
   {
-    "name": "Test 2 images",
-    "description": "Description <strong>strong</strong>",
-    "price": 100,
+    "name": "BBQ grill with charcoal starter",
+    "description": "Barbeque grill with a chimney charcoal starter. Includes a set of tools.",
+    "price": 40,
     "sold": false,
-    "image": "/static/images/na1.jpg",
-    "images": ["/static/images/na2.jpg", "/static/images/na3.jpg"],
+    "image": "/static/images/bbq_1.jpg",
+    "images": [
+      "/static/images/bbq_2.jpg"
+    ],
     "data": {
-      "Original price": "200"
+      "Original price": "$85"
     }
   }
 ]
